@@ -1,0 +1,10 @@
+__default__:
+  partition: vres
+  name: lopf_{rule}_{wildcards}
+  output: logs/cluster/{rule}_{wildcards.case}_{wildcards.mode}_{wildcards.nhours}_{wildcards.no}_{wildcards.formulation}.out
+write_lp:
+  cpus: 1
+  partition: x-men
+solve_lp:
+  cpus: 4
+  partition: vres
