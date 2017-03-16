@@ -1,0 +1,10 @@
+*.py[co]
+
+# Snakemake internals
+.snakemake*
+
+# Directory structure
+networks/*
+timings/*
+lps/*
+logs/*

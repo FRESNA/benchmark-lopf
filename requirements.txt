@@ -1,0 +1,2 @@
+snakemake
+git+https://github.com/FRESNA/pypsa.git@fa5a66819b91727434dfa79a6ee06c62967481cf#egg=pypsa
