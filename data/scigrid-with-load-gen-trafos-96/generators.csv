@@ -1,0 +1,1424 @@
+name,bus,marginal_cost,obj,p_nom,p_nom_max,carrier
+1 Gas,1,50.0,Generator 1 Gas,121.0,,Gas
+1 Hard Coal,1,25.0,Generator 1 Hard Coal,272.0,,Hard Coal
+102 Gas,102,50.0,Generator 102 Gas,67.9,,Gas
+108 Run of River,108,3.0,Generator 108 Run of River,63.1,,Run of River
+108 Waste,108,6.0,Generator 108 Waste,38.0,,Waste
+111 Gas,111,50.0,Generator 111 Gas,13.5,,Gas
+112 Gas,112,50.0,Generator 112 Gas,13.5,,Gas
+112 Run of River,112,3.0,Generator 112 Run of River,11.1,,Run of River
+114 Hard Coal,114,25.0,Generator 114 Hard Coal,19.0,,Hard Coal
+115 Brown Coal,115,10.0,Generator 115 Brown Coal,4730.0,,Brown Coal
+116 Gas,116,50.0,Generator 116 Gas,543.3,,Gas
+118 Gas,118,50.0,Generator 118 Gas,95.0,,Gas
+118 Waste,118,6.0,Generator 118 Waste,12.0,,Waste
+119 Brown Coal,119,10.0,Generator 119 Brown Coal,9.3,,Brown Coal
+119 Gas,119,50.0,Generator 119 Gas,16.9,,Gas
+119 Hard Coal,119,25.0,Generator 119 Hard Coal,61.5,,Hard Coal
+121 Brown Coal,121,10.0,Generator 121 Brown Coal,24.6,,Brown Coal
+123_220kV Brown Coal,123_220kV,10.0,Generator 123_220kV Brown Coal,3455.0,,Brown Coal
+123_220kV Gas,123_220kV,50.0,Generator 123_220kV Gas,96.5,,Gas
+126 Gas,126,50.0,Generator 126 Gas,2.0,,Gas
+126 Oil,126,100.0,Generator 126 Oil,60.0,,Oil
+127 Brown Coal,127,10.0,Generator 127 Brown Coal,1800.0,,Brown Coal
+127 Waste,127,6.0,Generator 127 Waste,24.0,,Waste
+128_220kV Run of River,128_220kV,3.0,Generator 128_220kV Run of River,36.4,,Run of River
+129_220kV Hard Coal,129_220kV,25.0,Generator 129_220kV Hard Coal,61.5,,Hard Coal
+12_220kV Gas,12_220kV,50.0,Generator 12_220kV Gas,150.0,,Gas
+12_220kV Waste,12_220kV,6.0,Generator 12_220kV Waste,30.0,,Waste
+130 Hard Coal,130,25.0,Generator 130 Hard Coal,85.0,,Hard Coal
+130 Waste,130,6.0,Generator 130 Waste,30.0,,Waste
+131 Gas,131,50.0,Generator 131 Gas,586.3,,Gas
+132 Storage Hydro,132,3.0,Generator 132 Storage Hydro,29.0,,Storage Hydro
+133 Brown Coal,133,10.0,Generator 133 Brown Coal,137.0,,Brown Coal
+133 Waste,133,6.0,Generator 133 Waste,33.4,,Waste
+134 Brown Coal,134,10.0,Generator 134 Brown Coal,118.0,,Brown Coal
+136 Gas,136,50.0,Generator 136 Gas,838.0,,Gas
+136 Hard Coal,136,25.0,Generator 136 Hard Coal,765.0,,Hard Coal
+137 Gas,137,50.0,Generator 137 Gas,11.4,,Gas
+139 Hard Coal,139,25.0,Generator 139 Hard Coal,760.0,,Hard Coal
+14 Run of River,14,3.0,Generator 14 Run of River,27.0,,Run of River
+140 Gas,140,50.0,Generator 140 Gas,11.1,,Gas
+141 Gas,141,50.0,Generator 141 Gas,64.7,,Gas
+142 Gas,142,50.0,Generator 142 Gas,9.8,,Gas
+142 Hard Coal,142,25.0,Generator 142 Hard Coal,449.0,,Hard Coal
+145 Brown Coal,145,10.0,Generator 145 Brown Coal,75.3,,Brown Coal
+145 Gas,145,50.0,Generator 145 Gas,536.5,,Gas
+145 Other,145,32.0,Generator 145 Other,79.8,,Other
+145 Waste,145,6.0,Generator 145 Waste,45.1,,Waste
+146 Gas,146,50.0,Generator 146 Gas,84.0,,Gas
+147 Gas,147,50.0,Generator 147 Gas,230.0,,Gas
+148 Gas,148,50.0,Generator 148 Gas,10.2,,Gas
+148 Oil,148,100.0,Generator 148 Oil,86.2,,Oil
+148 Waste,148,6.0,Generator 148 Waste,53.7,,Waste
+149 Run of River,149,3.0,Generator 149 Run of River,128.7,,Run of River
+150 Gas,150,50.0,Generator 150 Gas,15.8,,Gas
+153 Waste,153,6.0,Generator 153 Waste,12.0,,Waste
+155 Waste,155,6.0,Generator 155 Waste,12.6,,Waste
+156_220kV Brown Coal,156_220kV,10.0,Generator 156_220kV Brown Coal,28.9,,Brown Coal
+157_220kV Brown Coal,157_220kV,10.0,Generator 157_220kV Brown Coal,857.0,,Brown Coal
+157_220kV Gas,157_220kV,50.0,Generator 157_220kV Gas,22.0,,Gas
+16 Gas,16,50.0,Generator 16 Gas,11.4,,Gas
+160_220kV Hard Coal,160_220kV,25.0,Generator 160_220kV Hard Coal,103.0,,Hard Coal
+160_220kV Waste,160_220kV,6.0,Generator 160_220kV Waste,14.0,,Waste
+161 Gas,161,50.0,Generator 161 Gas,58.58,,Gas
+166 Gas,166,50.0,Generator 166 Gas,333.6,,Gas
+166 Hard Coal,166,25.0,Generator 166 Hard Coal,1324.5,,Hard Coal
+167 Gas,167,50.0,Generator 167 Gas,26.0,,Gas
+167 Run of River,167,3.0,Generator 167 Run of River,46.9,,Run of River
+169 Gas,169,50.0,Generator 169 Gas,33.7,,Gas
+170 Gas,170,50.0,Generator 170 Gas,23.1,,Gas
+170 Waste,170,6.0,Generator 170 Waste,61.5,,Waste
+174 Gas,174,50.0,Generator 174 Gas,24.5,,Gas
+174 Other,174,32.0,Generator 174 Other,38.0,,Other
+175 Hard Coal,175,25.0,Generator 175 Hard Coal,95.0,,Hard Coal
+175 Other,175,32.0,Generator 175 Other,21.0,,Other
+176 Gas,176,50.0,Generator 176 Gas,3.3,,Gas
+177 Multiple,177,28.0,Generator 177 Multiple,32.7,,Multiple
+178 Gas,178,50.0,Generator 178 Gas,9.2,,Gas
+178 Storage Hydro,178,3.0,Generator 178 Storage Hydro,15.0,,Storage Hydro
+180 Gas,180,50.0,Generator 180 Gas,25.4,,Gas
+180 Oil,180,100.0,Generator 180 Oil,333.5,,Oil
+180 Waste,180,6.0,Generator 180 Waste,28.9,,Waste
+183 Gas,183,50.0,Generator 183 Gas,22.5,,Gas
+183 Hard Coal,183,25.0,Generator 183 Hard Coal,766.0,,Hard Coal
+183 Oil,183,100.0,Generator 183 Oil,38.0,,Oil
+183 Waste,183,6.0,Generator 183 Waste,24.0,,Waste
+184_220kV Gas,184_220kV,50.0,Generator 184_220kV Gas,22.3,,Gas
+185 Waste,185,6.0,Generator 185 Waste,33.1,,Waste
+188 Gas,188,50.0,Generator 188 Gas,274.0,,Gas
+18_220kV Gas,18_220kV,50.0,Generator 18_220kV Gas,52.8,,Gas
+19 Gas,19,50.0,Generator 19 Gas,10.6,,Gas
+19 Hard Coal,19,25.0,Generator 19 Hard Coal,370.0,,Hard Coal
+190 Gas,190,50.0,Generator 190 Gas,13.4,,Gas
+194 Hard Coal,194,25.0,Generator 194 Hard Coal,1017.0,,Hard Coal
+196 Hard Coal,196,25.0,Generator 196 Hard Coal,695.0,,Hard Coal
+196 Other,196,32.0,Generator 196 Other,700.0,,Other
+197 Run of River,197,3.0,Generator 197 Run of River,40.1,,Run of River
+198 Gas,198,50.0,Generator 198 Gas,15.0,,Gas
+200 Brown Coal,200,10.0,Generator 200 Brown Coal,27.5,,Brown Coal
+200 Gas,200,50.0,Generator 200 Gas,7.4,,Gas
+201_220kV Gas,201_220kV,50.0,Generator 201_220kV Gas,58.1,,Gas
+202 Gas,202,50.0,Generator 202 Gas,1870.1,,Gas
+202 Nuclear,202,8.0,Generator 202 Nuclear,1329.0,,Nuclear
+203 Gas,203,50.0,Generator 203 Gas,20.5,,Gas
+204 Hard Coal,204,25.0,Generator 204 Hard Coal,310.0,,Hard Coal
+205 Gas,205,50.0,Generator 205 Gas,417.0,,Gas
+209 Hard Coal,209,25.0,Generator 209 Hard Coal,26.0,,Hard Coal
+21 Gas,21,50.0,Generator 21 Gas,127.0,,Gas
+21 Hard Coal,21,25.0,Generator 21 Hard Coal,194.0,,Hard Coal
+21 Waste,21,6.0,Generator 21 Waste,16.4,,Waste
+210 Waste,210,6.0,Generator 210 Waste,14.7,,Waste
+211 Hard Coal,211,25.0,Generator 211 Hard Coal,721.0,,Hard Coal
+211 Waste,211,6.0,Generator 211 Waste,11.6,,Waste
+212 Run of River,212,3.0,Generator 212 Run of River,24.0,,Run of River
+213 Gas,213,50.0,Generator 213 Gas,104.6,,Gas
+214 Gas,214,50.0,Generator 214 Gas,27.0,,Gas
+215 Gas,215,50.0,Generator 215 Gas,47.2,,Gas
+215 Waste,215,6.0,Generator 215 Waste,73.4,,Waste
+217 Gas,217,50.0,Generator 217 Gas,108.0,,Gas
+217 Hard Coal,217,25.0,Generator 217 Hard Coal,508.0,,Hard Coal
+217 Waste,217,6.0,Generator 217 Waste,17.0,,Waste
+219 Gas,219,50.0,Generator 219 Gas,254.5,,Gas
+219 Waste,219,6.0,Generator 219 Waste,34.0,,Waste
+221 Geothermal,221,26.0,Generator 221 Geothermal,7.8,,Geothermal
+222 Gas,222,50.0,Generator 222 Gas,99.0,,Gas
+223 Gas,223,50.0,Generator 223 Gas,87.0,,Gas
+224 Other,224,32.0,Generator 224 Other,176.1,,Other
+225 Gas,225,50.0,Generator 225 Gas,11.6,,Gas
+225 Hard Coal,225,25.0,Generator 225 Hard Coal,13.4,,Hard Coal
+225 Waste,225,6.0,Generator 225 Waste,15.0,,Waste
+226 Gas,226,50.0,Generator 226 Gas,20.0,,Gas
+226 Run of River,226,3.0,Generator 226 Run of River,0.1,,Run of River
+227 Run of River,227,3.0,Generator 227 Run of River,11.0,,Run of River
+229 Gas,229,50.0,Generator 229 Gas,24.5,,Gas
+229 Hard Coal,229,25.0,Generator 229 Hard Coal,1958.0,,Hard Coal
+22_220kV Oil,22_220kV,100.0,Generator 22_220kV Oil,298.5,,Oil
+233_220kV Gas,233_220kV,50.0,Generator 233_220kV Gas,4.0,,Gas
+233_220kV Hard Coal,233_220kV,25.0,Generator 233_220kV Hard Coal,20.7,,Hard Coal
+235 Other,235,32.0,Generator 235 Other,19.7,,Other
+238 Run of River,238,3.0,Generator 238 Run of River,12.1,,Run of River
+239 Gas,239,50.0,Generator 239 Gas,800.0,,Gas
+240 Gas,240,50.0,Generator 240 Gas,126.0,,Gas
+245 Hard Coal,245,25.0,Generator 245 Hard Coal,61.5,,Hard Coal
+246 Hard Coal,246,25.0,Generator 246 Hard Coal,510.0,,Hard Coal
+247_220kV Oil,247_220kV,100.0,Generator 247_220kV Oil,34.5,,Oil
+247_220kV Run of River,247_220kV,3.0,Generator 247_220kV Run of River,633.2,,Run of River
+248_220kV Hard Coal,248_220kV,25.0,Generator 248_220kV Hard Coal,895.0,,Hard Coal
+249 Waste,249,6.0,Generator 249 Waste,14.6,,Waste
+250_220kV Other,250_220kV,32.0,Generator 250_220kV Other,396.6,,Other
+254 Gas,254,50.0,Generator 254 Gas,10.7,,Gas
+255 Run of River,255,3.0,Generator 255 Run of River,84.8,,Run of River
+258 Gas,258,50.0,Generator 258 Gas,32.0,,Gas
+258 Other,258,32.0,Generator 258 Other,28.0,,Other
+260 Hard Coal,260,25.0,Generator 260 Hard Coal,138.5,,Hard Coal
+266 Gas,266,50.0,Generator 266 Gas,59.9,,Gas
+266 Oil,266,100.0,Generator 266 Oil,92.8,,Oil
+266 Run of River,266,3.0,Generator 266 Run of River,214.0,,Run of River
+266 Waste,266,6.0,Generator 266 Waste,9.0,,Waste
+26_220kV Nuclear,26_220kV,8.0,Generator 26_220kV Nuclear,1410.0,,Nuclear
+270 Gas,270,50.0,Generator 270 Gas,50.0,,Gas
+275 Gas,275,50.0,Generator 275 Gas,42.0,,Gas
+275 Other,275,32.0,Generator 275 Other,100.0,,Other
+275 Waste,275,6.0,Generator 275 Waste,12.5,,Waste
+276 Hard Coal,276,25.0,Generator 276 Hard Coal,110.0,,Hard Coal
+276 Run of River,276,3.0,Generator 276 Run of River,16.0,,Run of River
+279_220kV Brown Coal,279_220kV,10.0,Generator 279_220kV Brown Coal,90.8,,Brown Coal
+28 Hard Coal,28,25.0,Generator 28 Hard Coal,260.0,,Hard Coal
+28 Oil,28,100.0,Generator 28 Oil,101.0,,Oil
+28 Run of River,28,3.0,Generator 28 Run of River,311.8,,Run of River
+281_220kV Gas,281_220kV,50.0,Generator 281_220kV Gas,74.0,,Gas
+282_220kV Oil,282_220kV,100.0,Generator 282_220kV Oil,17.0,,Oil
+285 Gas,285,50.0,Generator 285 Gas,18.1,,Gas
+287 Gas,287,50.0,Generator 287 Gas,64.0,,Gas
+288 Hard Coal,288,25.0,Generator 288 Hard Coal,18.5,,Hard Coal
+289 Gas,289,50.0,Generator 289 Gas,33.4,,Gas
+289 Hard Coal,289,25.0,Generator 289 Hard Coal,794.0,,Hard Coal
+290 Waste,290,6.0,Generator 290 Waste,15.7,,Waste
+291 Brown Coal,291,10.0,Generator 291 Brown Coal,1105.0,,Brown Coal
+292_220kV Brown Coal,292_220kV,10.0,Generator 292_220kV Brown Coal,20.3,,Brown Coal
+292_220kV Gas,292_220kV,50.0,Generator 292_220kV Gas,216.0,,Gas
+292_220kV Waste,292_220kV,6.0,Generator 292_220kV Waste,59.0,,Waste
+294 Gas,294,50.0,Generator 294 Gas,13.5,,Gas
+294 Waste,294,6.0,Generator 294 Waste,11.2,,Waste
+295 Gas,295,50.0,Generator 295 Gas,119.0,,Gas
+295 Hard Coal,295,25.0,Generator 295 Hard Coal,43.3,,Hard Coal
+298 Gas,298,50.0,Generator 298 Gas,37.5,,Gas
+299 Hard Coal,299,25.0,Generator 299 Hard Coal,690.0,,Hard Coal
+3 Run of River,3,3.0,Generator 3 Run of River,18.8,,Run of River
+301 Gas,301,50.0,Generator 301 Gas,13.0,,Gas
+302 Brown Coal,302,10.0,Generator 302 Brown Coal,33.5,,Brown Coal
+302 Gas,302,50.0,Generator 302 Gas,128.0,,Gas
+302 Other,302,32.0,Generator 302 Other,56.0,,Other
+302 Storage Hydro,302,3.0,Generator 302 Storage Hydro,79.0,,Storage Hydro
+302 Waste,302,6.0,Generator 302 Waste,14.7,,Waste
+304 Gas,304,50.0,Generator 304 Gas,34.2,,Gas
+304 Oil,304,100.0,Generator 304 Oil,24.8,,Oil
+305 Nuclear,305,8.0,Generator 305 Nuclear,1310.0,,Nuclear
+305 Oil,305,100.0,Generator 305 Oil,136.0,,Oil
+308_220kV Gas,308_220kV,50.0,Generator 308_220kV Gas,27.4,,Gas
+308_220kV Nuclear,308_220kV,8.0,Generator 308_220kV Nuclear,1275.0,,Nuclear
+30_220kV Run of River,30_220kV,3.0,Generator 30_220kV Run of River,3.0,,Run of River
+31 Gas,31,50.0,Generator 31 Gas,195.4,,Gas
+310 Hard Coal,310,25.0,Generator 310 Hard Coal,778.0,,Hard Coal
+313 Brown Coal,313,10.0,Generator 313 Brown Coal,875.0,,Brown Coal
+315_220kV Run of River,315_220kV,3.0,Generator 315_220kV Run of River,77.4,,Run of River
+316 Gas,316,50.0,Generator 316 Gas,75.8,,Gas
+316 Waste,316,6.0,Generator 316 Waste,10.0,,Waste
+318 Run of River,318,3.0,Generator 318 Run of River,62.7,,Run of River
+320 Gas,320,50.0,Generator 320 Gas,9.8,,Gas
+321 Gas,321,50.0,Generator 321 Gas,0.2,,Gas
+321 Waste,321,6.0,Generator 321 Waste,13.6,,Waste
+322_220kV Gas,322_220kV,50.0,Generator 322_220kV Gas,85.1,,Gas
+323 Gas,323,50.0,Generator 323 Gas,12.9,,Gas
+326 Gas,326,50.0,Generator 326 Gas,319.8,,Gas
+327 Gas,327,50.0,Generator 327 Gas,26.9,,Gas
+328 Run of River,328,3.0,Generator 328 Run of River,36.5,,Run of River
+329 Run of River,329,3.0,Generator 329 Run of River,50.0,,Run of River
+329 Storage Hydro,329,3.0,Generator 329 Storage Hydro,500.0,,Storage Hydro
+32_220kV Gas,32_220kV,50.0,Generator 32_220kV Gas,109.1,,Gas
+33 Gas,33,50.0,Generator 33 Gas,31.8,,Gas
+330 Nuclear,330,8.0,Generator 330 Nuclear,1410.0,,Nuclear
+330 Run of River,330,3.0,Generator 330 Run of River,35.8,,Run of River
+331 Gas,331,50.0,Generator 331 Gas,227.0,,Gas
+331 Run of River,331,3.0,Generator 331 Run of River,217.5,,Run of River
+331 Waste,331,6.0,Generator 331 Waste,12.5,,Waste
+332_220kV Gas,332_220kV,50.0,Generator 332_220kV Gas,97.9,,Gas
+332_220kV Run of River,332_220kV,3.0,Generator 332_220kV Run of River,25.2,,Run of River
+335 Gas,335,50.0,Generator 335 Gas,54.0,,Gas
+336_220kV Gas,336_220kV,50.0,Generator 336_220kV Gas,52.8,,Gas
+336_220kV Run of River,336_220kV,3.0,Generator 336_220kV Run of River,89.0,,Run of River
+337 Gas,337,50.0,Generator 337 Gas,13.4,,Gas
+337 Run of River,337,3.0,Generator 337 Run of River,80.1,,Run of River
+338_220kV Waste,338_220kV,6.0,Generator 338_220kV Waste,54.0,,Waste
+34 Hard Coal,34,25.0,Generator 34 Hard Coal,757.0,,Hard Coal
+34 Oil,34,100.0,Generator 34 Oil,56.0,,Oil
+340 Gas,340,50.0,Generator 340 Gas,299.6,,Gas
+340 Storage Hydro,340,3.0,Generator 340 Storage Hydro,82.5,,Storage Hydro
+341 Brown Coal,341,10.0,Generator 341 Brown Coal,134.0,,Brown Coal
+341 Gas,341,50.0,Generator 341 Gas,159.0,,Gas
+341 Oil,341,100.0,Generator 341 Oil,111.0,,Oil
+341 Other,341,32.0,Generator 341 Other,42.7,,Other
+341 Waste,341,6.0,Generator 341 Waste,58.0,,Waste
+342 Gas,342,50.0,Generator 342 Gas,19.5,,Gas
+344 Gas,344,50.0,Generator 344 Gas,69.95,,Gas
+347 Gas,347,50.0,Generator 347 Gas,211.0,,Gas
+347 Hard Coal,347,25.0,Generator 347 Hard Coal,89.0,,Hard Coal
+347 Oil,347,100.0,Generator 347 Oil,327.0,,Oil
+348 Gas,348,50.0,Generator 348 Gas,458.9,,Gas
+350 Gas,350,50.0,Generator 350 Gas,18.6,,Gas
+351_220kV Other,351_220kV,32.0,Generator 351_220kV Other,23.3,,Other
+351_220kV Run of River,351_220kV,3.0,Generator 351_220kV Run of River,63.7,,Run of River
+351_220kV Waste,351_220kV,6.0,Generator 351_220kV Waste,25.5,,Waste
+352 Hard Coal,352,25.0,Generator 352 Hard Coal,472.0,,Hard Coal
+352 Oil,352,100.0,Generator 352 Oil,46.0,,Oil
+352 Run of River,352,3.0,Generator 352 Run of River,73.3,,Run of River
+353_220kV Gas,353_220kV,50.0,Generator 353_220kV Gas,1391.0,,Gas
+353_220kV Run of River,353_220kV,3.0,Generator 353_220kV Run of River,23.3,,Run of River
+354 Gas,354,50.0,Generator 354 Gas,540.5,,Gas
+354 Hard Coal,354,25.0,Generator 354 Hard Coal,333.0,,Hard Coal
+354 Waste,354,6.0,Generator 354 Waste,40.0,,Waste
+358 Hard Coal,358,25.0,Generator 358 Hard Coal,318.0,,Hard Coal
+36 Gas,36,50.0,Generator 36 Gas,11.06,,Gas
+36 Hard Coal,36,25.0,Generator 36 Hard Coal,280.0,,Hard Coal
+360_220kV Gas,360_220kV,50.0,Generator 360_220kV Gas,42.0,,Gas
+360_220kV Hard Coal,360_220kV,25.0,Generator 360_220kV Hard Coal,779.0,,Hard Coal
+360_220kV Waste,360_220kV,6.0,Generator 360_220kV Waste,16.0,,Waste
+362_220kV Run of River,362_220kV,3.0,Generator 362_220kV Run of River,79.5,,Run of River
+363 Other,363,32.0,Generator 363 Other,16.0,,Other
+364 Waste,364,6.0,Generator 364 Waste,11.6,,Waste
+365 Gas,365,50.0,Generator 365 Gas,81.8,,Gas
+365 Hard Coal,365,25.0,Generator 365 Hard Coal,688.0,,Hard Coal
+365 Waste,365,6.0,Generator 365 Waste,36.0,,Waste
+367 Nuclear,367,8.0,Generator 367 Nuclear,1402.0,,Nuclear
+370 Brown Coal,370,10.0,Generator 370 Brown Coal,56.8,,Brown Coal
+370 Other,370,32.0,Generator 370 Other,85.0,,Other
+373 Run of River,373,3.0,Generator 373 Run of River,25.0,,Run of River
+374 Gas,374,50.0,Generator 374 Gas,100.2,,Gas
+374 Hard Coal,374,25.0,Generator 374 Hard Coal,725.0,,Hard Coal
+376 Geothermal,376,26.0,Generator 376 Geothermal,0.6,,Geothermal
+376 Hard Coal,376,25.0,Generator 376 Hard Coal,875.0,,Hard Coal
+377 Waste,377,6.0,Generator 377 Waste,11.0,,Waste
+378 Gas,378,50.0,Generator 378 Gas,260.44,,Gas
+378 Hard Coal,378,25.0,Generator 378 Hard Coal,769.0,,Hard Coal
+37_220kV Gas,37_220kV,50.0,Generator 37_220kV Gas,52.0,,Gas
+37_220kV Nuclear,37_220kV,8.0,Generator 37_220kV Nuclear,1360.0,,Nuclear
+37_220kV Waste,37_220kV,6.0,Generator 37_220kV Waste,58.4,,Waste
+380 Gas,380,50.0,Generator 380 Gas,250.0,,Gas
+380 Waste,380,6.0,Generator 380 Waste,22.5,,Waste
+382_220kV Gas,382_220kV,50.0,Generator 382_220kV Gas,122.0,,Gas
+382_220kV Waste,382_220kV,6.0,Generator 382_220kV Waste,20.7,,Waste
+383 Waste,383,6.0,Generator 383 Waste,24.4,,Waste
+385_220kV Gas,385_220kV,50.0,Generator 385_220kV Gas,58.4,,Gas
+385_220kV Hard Coal,385_220kV,25.0,Generator 385_220kV Hard Coal,24.8,,Hard Coal
+385_220kV Oil,385_220kV,100.0,Generator 385_220kV Oil,0.5,,Oil
+386 Gas,386,50.0,Generator 386 Gas,23.0,,Gas
+39 Gas,39,50.0,Generator 39 Gas,2299.3,,Gas
+390 Gas,390,50.0,Generator 390 Gas,1001.3,,Gas
+390 Hard Coal,390,25.0,Generator 390 Hard Coal,17.4,,Hard Coal
+390 Waste,390,6.0,Generator 390 Waste,18.0,,Waste
+394 Gas,394,50.0,Generator 394 Gas,26.5,,Gas
+395 Gas,395,50.0,Generator 395 Gas,490.0,,Gas
+396 Nuclear,396,8.0,Generator 396 Nuclear,2572.0,,Nuclear
+398 Oil,398,100.0,Generator 398 Oil,87.0,,Oil
+399 Gas,399,50.0,Generator 399 Gas,35.1,,Gas
+399 Waste,399,6.0,Generator 399 Waste,9.5,,Waste
+40 Run of River,40,3.0,Generator 40 Run of River,48.0,,Run of River
+401 Gas,401,50.0,Generator 401 Gas,31.0,,Gas
+402 Oil,402,100.0,Generator 402 Oil,88.0,,Oil
+402 Run of River,402,3.0,Generator 402 Run of River,60.0,,Run of River
+402 Storage Hydro,402,3.0,Generator 402 Storage Hydro,158.0,,Storage Hydro
+403_220kV Run of River,403_220kV,3.0,Generator 403_220kV Run of River,19.0,,Run of River
+404_220kV Run of River,404_220kV,3.0,Generator 404_220kV Run of River,24.0,,Run of River
+405 Gas,405,50.0,Generator 405 Gas,56.0,,Gas
+405 Run of River,405,3.0,Generator 405 Run of River,84.6,,Run of River
+409 Gas,409,50.0,Generator 409 Gas,8.5,,Gas
+409 Hard Coal,409,25.0,Generator 409 Hard Coal,112.6,,Hard Coal
+409 Oil,409,100.0,Generator 409 Oil,69.9,,Oil
+409 Waste,409,6.0,Generator 409 Waste,19.5,,Waste
+410 Run of River,410,3.0,Generator 410 Run of River,20.1,,Run of River
+414 Gas,414,50.0,Generator 414 Gas,193.7,,Gas
+417 Run of River,417,3.0,Generator 417 Run of River,137.3,,Run of River
+418 Run of River,418,3.0,Generator 418 Run of River,66.0,,Run of River
+421_220kV Waste,421_220kV,6.0,Generator 421_220kV Waste,67.3,,Waste
+422 Gas,422,50.0,Generator 422 Gas,13.5,,Gas
+423 Run of River,423,3.0,Generator 423 Run of River,36.8,,Run of River
+424 Oil,424,100.0,Generator 424 Oil,70.0,,Oil
+425 Other,425,32.0,Generator 425 Other,288.5,,Other
+426 Gas,426,50.0,Generator 426 Gas,32.4,,Gas
+428 Brown Coal,428,10.0,Generator 428 Brown Coal,74.0,,Brown Coal
+429 Gas,429,50.0,Generator 429 Gas,112.1,,Gas
+429 Hard Coal,429,25.0,Generator 429 Hard Coal,12.0,,Hard Coal
+43 Gas,43,50.0,Generator 43 Gas,196.0,,Gas
+43 Waste,43,6.0,Generator 43 Waste,17.0,,Waste
+430 Brown Coal,430,10.0,Generator 430 Brown Coal,38.5,,Brown Coal
+433 Gas,433,50.0,Generator 433 Gas,15.6,,Gas
+434 Run of River,434,3.0,Generator 434 Run of River,12.8,,Run of River
+434 Storage Hydro,434,3.0,Generator 434 Storage Hydro,124.0,,Storage Hydro
+435 Brown Coal,435,10.0,Generator 435 Brown Coal,164.0,,Brown Coal
+438 Run of River,438,3.0,Generator 438 Run of River,146.0,,Run of River
+439 Gas,439,50.0,Generator 439 Gas,11.7,,Gas
+44 Waste,44,6.0,Generator 44 Waste,26.0,,Waste
+440 Other,440,32.0,Generator 440 Other,17.0,,Other
+441 Gas,441,50.0,Generator 441 Gas,182.0,,Gas
+441 Hard Coal,441,25.0,Generator 441 Hard Coal,61.5,,Hard Coal
+442 Gas,442,50.0,Generator 442 Gas,26.5,,Gas
+444 Gas,444,50.0,Generator 444 Gas,430.0,,Gas
+445 Run of River,445,3.0,Generator 445 Run of River,217.1,,Run of River
+446 Gas,446,50.0,Generator 446 Gas,14.7,,Gas
+447 Gas,447,50.0,Generator 447 Gas,75.0,,Gas
+45 Gas,45,50.0,Generator 45 Gas,296.0,,Gas
+45 Geothermal,45,26.0,Generator 45 Geothermal,23.1,,Geothermal
+451 Run of River,451,3.0,Generator 451 Run of River,104.4,,Run of River
+453 Run of River,453,3.0,Generator 453 Run of River,30.0,,Run of River
+455 Gas,455,50.0,Generator 455 Gas,16.9,,Gas
+456 Run of River,456,3.0,Generator 456 Run of River,0.1,,Run of River
+457 Waste,457,6.0,Generator 457 Waste,29.6,,Waste
+463 Gas,463,50.0,Generator 463 Gas,25.8,,Gas
+464 Gas,464,50.0,Generator 464 Gas,51.9,,Gas
+464 Oil,464,100.0,Generator 464 Oil,66.3,,Oil
+464 Run of River,464,3.0,Generator 464 Run of River,25.4,,Run of River
+465 Gas,465,50.0,Generator 465 Gas,35.0,,Gas
+465 Oil,465,100.0,Generator 465 Oil,80.0,,Oil
+468 Gas,468,50.0,Generator 468 Gas,17.5,,Gas
+468 Hard Coal,468,25.0,Generator 468 Hard Coal,79.0,,Hard Coal
+468 Oil,468,100.0,Generator 468 Oil,4.8,,Oil
+468 Waste,468,6.0,Generator 468 Waste,16.0,,Waste
+47 Gas,47,50.0,Generator 47 Gas,444.0,,Gas
+47 Run of River,47,3.0,Generator 47 Run of River,31.7,,Run of River
+474 Gas,474,50.0,Generator 474 Gas,390.0,,Gas
+475 Oil,475,100.0,Generator 475 Oil,250.6,,Oil
+478 Gas,478,50.0,Generator 478 Gas,95.0,,Gas
+484 Gas,484,50.0,Generator 484 Gas,65.0,,Gas
+484 Other,484,32.0,Generator 484 Other,6.0,,Other
+484 Run of River,484,3.0,Generator 484 Run of River,66.7,,Run of River
+484 Storage Hydro,484,3.0,Generator 484 Storage Hydro,45.5,,Storage Hydro
+485 Run of River,485,3.0,Generator 485 Run of River,26.5,,Run of River
+486 Hard Coal,486,25.0,Generator 486 Hard Coal,138.5,,Hard Coal
+486 Oil,486,100.0,Generator 486 Oil,11.4,,Oil
+487 Brown Coal,487,10.0,Generator 487 Brown Coal,875.0,,Brown Coal
+487 Oil,487,100.0,Generator 487 Oil,11.4,,Oil
+49 Brown Coal,49,10.0,Generator 49 Brown Coal,352.0,,Brown Coal
+49 Hard Coal,49,25.0,Generator 49 Hard Coal,66.0,,Hard Coal
+49 Waste,49,6.0,Generator 49 Waste,37.5,,Waste
+492 Hard Coal,492,25.0,Generator 492 Hard Coal,54.0,,Hard Coal
+492 Waste,492,6.0,Generator 492 Waste,56.9,,Waste
+495 Hard Coal,495,25.0,Generator 495 Hard Coal,147.0,,Hard Coal
+51 Storage Hydro,51,3.0,Generator 51 Storage Hydro,20.0,,Storage Hydro
+52_220kV Gas,52_220kV,50.0,Generator 52_220kV Gas,390.0,,Gas
+52_220kV Hard Coal,52_220kV,25.0,Generator 52_220kV Hard Coal,1347.0,,Hard Coal
+56_220kV Gas,56_220kV,50.0,Generator 56_220kV Gas,11.7,,Gas
+58 Gas,58,50.0,Generator 58 Gas,52.5,,Gas
+58 Hard Coal,58,25.0,Generator 58 Hard Coal,26.9,,Hard Coal
+59 Hard Coal,59,25.0,Generator 59 Hard Coal,324.0,,Hard Coal
+5_220kV Run of River,5_220kV,3.0,Generator 5_220kV Run of River,4.6,,Run of River
+61_220kV Gas,61_220kV,50.0,Generator 61_220kV Gas,334.0,,Gas
+61_220kV Hard Coal,61_220kV,25.0,Generator 61_220kV Hard Coal,350.0,,Hard Coal
+62 Hard Coal,62,25.0,Generator 62 Hard Coal,119.0,,Hard Coal
+62 Run of River,62,3.0,Generator 62 Run of River,9.9,,Run of River
+62 Waste,62,6.0,Generator 62 Waste,44.0,,Waste
+63 Brown Coal,63,10.0,Generator 63 Brown Coal,465.0,,Brown Coal
+63 Run of River,63,3.0,Generator 63 Run of River,22.0,,Run of River
+64 Run of River,64,3.0,Generator 64 Run of River,11.2,,Run of River
+65 Run of River,65,3.0,Generator 65 Run of River,164.5,,Run of River
+66 Run of River,66,3.0,Generator 66 Run of River,5.1,,Run of River
+67 Gas,67,50.0,Generator 67 Gas,14.8,,Gas
+67 Hard Coal,67,25.0,Generator 67 Hard Coal,300.0,,Hard Coal
+67 Oil,67,100.0,Generator 67 Oil,88.0,,Oil
+67 Other,67,32.0,Generator 67 Other,150.0,,Other
+67 Storage Hydro,67,3.0,Generator 67 Storage Hydro,392.0,,Storage Hydro
+67 Waste,67,6.0,Generator 67 Waste,33.0,,Waste
+68_220kV Run of River,68_220kV,3.0,Generator 68_220kV Run of River,4.2,,Run of River
+69_220kV Gas,69_220kV,50.0,Generator 69_220kV Gas,11.5,,Gas
+69_220kV Waste,69_220kV,6.0,Generator 69_220kV Waste,18.8,,Waste
+70 Gas,70,50.0,Generator 70 Gas,423.0,,Gas
+70 Waste,70,6.0,Generator 70 Waste,15.6,,Waste
+71 Brown Coal,71,10.0,Generator 71 Brown Coal,49.0,,Brown Coal
+71 Gas,71,50.0,Generator 71 Gas,161.1,,Gas
+71 Waste,71,6.0,Generator 71 Waste,9.9,,Waste
+72 Brown Coal,72,10.0,Generator 72 Brown Coal,900.0,,Brown Coal
+72 Gas,72,50.0,Generator 72 Gas,151.0,,Gas
+72 Oil,72,100.0,Generator 72 Oil,120.0,,Oil
+74_220kV Gas,74_220kV,50.0,Generator 74_220kV Gas,122.0,,Gas
+74_220kV Waste,74_220kV,6.0,Generator 74_220kV Waste,23.3,,Waste
+75 Brown Coal,75,10.0,Generator 75 Brown Coal,49.0,,Brown Coal
+77 Gas,77,50.0,Generator 77 Gas,5.3,,Gas
+79 Brown Coal,79,10.0,Generator 79 Brown Coal,750.0,,Brown Coal
+79 Waste,79,6.0,Generator 79 Waste,18.7,,Waste
+81 Brown Coal,81,10.0,Generator 81 Brown Coal,2835.0,,Brown Coal
+81 Other,81,32.0,Generator 81 Other,124.5,,Other
+83 Brown Coal,83,10.0,Generator 83 Brown Coal,750.0,,Brown Coal
+83 Other,83,32.0,Generator 83 Other,53.6,,Other
+84 Hard Coal,84,25.0,Generator 84 Hard Coal,323.0,,Hard Coal
+87_220kV Gas,87_220kV,50.0,Generator 87_220kV Gas,138.7,,Gas
+87_220kV Hard Coal,87_220kV,25.0,Generator 87_220kV Hard Coal,175.9,,Hard Coal
+87_220kV Multiple,87_220kV,28.0,Generator 87_220kV Multiple,120.0,,Multiple
+88 Gas,88,50.0,Generator 88 Gas,39.8,,Gas
+89 Other,89,32.0,Generator 89 Other,606.0,,Other
+92 Gas,92,50.0,Generator 92 Gas,66.0,,Gas
+94_220kV Geothermal,94_220kV,26.0,Generator 94_220kV Geothermal,0.2,,Geothermal
+95_220kV Gas,95_220kV,50.0,Generator 95_220kV Gas,24.3,,Gas
+99_220kV Gas,99_220kV,50.0,Generator 99_220kV Gas,113.6,,Gas
+99_220kV Hard Coal,99_220kV,25.0,Generator 99_220kV Hard Coal,655.6,,Hard Coal
+218 Wind Offshore,218,0.0,Generator 218 Wind Offshore,48.3,,Wind Offshore
+221 Wind Offshore,221,0.0,Generator 221 Wind Offshore,400.0,,Wind Offshore
+270 Wind Offshore,270,0.0,Generator 270 Wind Offshore,60.0,,Wind Offshore
+271 Wind Offshore,271,0.0,Generator 271 Wind Offshore,1018.0,,Wind Offshore
+22_220kV Wind Offshore,22_220kV,0.0,Generator 22_220kV Wind Offshore,1447.2,,Wind Offshore
+1 Wind Onshore,1,0.0,Generator 1 Wind Onshore,153.510391124,,Wind Onshore
+3 Wind Onshore,3,0.0,Generator 3 Wind Onshore,50.1645064777,,Wind Onshore
+4 Wind Onshore,4,0.0,Generator 4 Wind Onshore,84.2627790573,,Wind Onshore
+6 Wind Onshore,6,0.0,Generator 6 Wind Onshore,49.8864693272,,Wind Onshore
+7 Wind Onshore,7,0.0,Generator 7 Wind Onshore,67.2230767625,,Wind Onshore
+8 Wind Onshore,8,0.0,Generator 8 Wind Onshore,94.6840441287,,Wind Onshore
+9 Wind Onshore,9,0.0,Generator 9 Wind Onshore,85.7985253848,,Wind Onshore
+11 Wind Onshore,11,0.0,Generator 11 Wind Onshore,132.724113719,,Wind Onshore
+14 Wind Onshore,14,0.0,Generator 14 Wind Onshore,0.0641793580921,,Wind Onshore
+16 Wind Onshore,16,0.0,Generator 16 Wind Onshore,204.187623515,,Wind Onshore
+17 Wind Onshore,17,0.0,Generator 17 Wind Onshore,52.7005296089,,Wind Onshore
+19 Wind Onshore,19,0.0,Generator 19 Wind Onshore,6.03553849736,,Wind Onshore
+21 Wind Onshore,21,0.0,Generator 21 Wind Onshore,36.1635315924,,Wind Onshore
+23 Wind Onshore,23,0.0,Generator 23 Wind Onshore,61.8362042365,,Wind Onshore
+25 Wind Onshore,25,0.0,Generator 25 Wind Onshore,106.787062956,,Wind Onshore
+27 Wind Onshore,27,0.0,Generator 27 Wind Onshore,13.0295812923,,Wind Onshore
+28 Wind Onshore,28,0.0,Generator 28 Wind Onshore,71.6568833062,,Wind Onshore
+29 Wind Onshore,29,0.0,Generator 29 Wind Onshore,293.755374959,,Wind Onshore
+31 Wind Onshore,31,0.0,Generator 31 Wind Onshore,52.7816062429,,Wind Onshore
+33 Wind Onshore,33,0.0,Generator 33 Wind Onshore,304.429780208,,Wind Onshore
+34 Wind Onshore,34,0.0,Generator 34 Wind Onshore,20.6686903142,,Wind Onshore
+35 Wind Onshore,35,0.0,Generator 35 Wind Onshore,16.3680870699,,Wind Onshore
+36 Wind Onshore,36,0.0,Generator 36 Wind Onshore,273.855776496,,Wind Onshore
+38 Wind Onshore,38,0.0,Generator 38 Wind Onshore,2.8560689855,,Wind Onshore
+39 Wind Onshore,39,0.0,Generator 39 Wind Onshore,603.943953043,,Wind Onshore
+40 Wind Onshore,40,0.0,Generator 40 Wind Onshore,426.979978559,,Wind Onshore
+41 Wind Onshore,41,0.0,Generator 41 Wind Onshore,1055.73517403,,Wind Onshore
+43 Wind Onshore,43,0.0,Generator 43 Wind Onshore,414.871332023,,Wind Onshore
+44 Wind Onshore,44,0.0,Generator 44 Wind Onshore,10.3516315814,,Wind Onshore
+45 Wind Onshore,45,0.0,Generator 45 Wind Onshore,161.862596706,,Wind Onshore
+47 Wind Onshore,47,0.0,Generator 47 Wind Onshore,2.87856145665,,Wind Onshore
+48 Wind Onshore,48,0.0,Generator 48 Wind Onshore,8.67091627581,,Wind Onshore
+49 Wind Onshore,49,0.0,Generator 49 Wind Onshore,209.786523699,,Wind Onshore
+50 Wind Onshore,50,0.0,Generator 50 Wind Onshore,339.421642565,,Wind Onshore
+51 Wind Onshore,51,0.0,Generator 51 Wind Onshore,134.399019048,,Wind Onshore
+53 Wind Onshore,53,0.0,Generator 53 Wind Onshore,32.6535257613,,Wind Onshore
+54 Wind Onshore,54,0.0,Generator 54 Wind Onshore,5.00902220665,,Wind Onshore
+55 Wind Onshore,55,0.0,Generator 55 Wind Onshore,3.19075884669,,Wind Onshore
+57 Wind Onshore,57,0.0,Generator 57 Wind Onshore,0.788599328058,,Wind Onshore
+58 Wind Onshore,58,0.0,Generator 58 Wind Onshore,4.32869590283,,Wind Onshore
+59 Wind Onshore,59,0.0,Generator 59 Wind Onshore,112.606432525,,Wind Onshore
+60 Wind Onshore,60,0.0,Generator 60 Wind Onshore,77.81765048,,Wind Onshore
+62 Wind Onshore,62,0.0,Generator 62 Wind Onshore,153.592985662,,Wind Onshore
+63 Wind Onshore,63,0.0,Generator 63 Wind Onshore,15.7834481687,,Wind Onshore
+64 Wind Onshore,64,0.0,Generator 64 Wind Onshore,2.29550964638,,Wind Onshore
+65 Wind Onshore,65,0.0,Generator 65 Wind Onshore,26.1200405137,,Wind Onshore
+66 Wind Onshore,66,0.0,Generator 66 Wind Onshore,34.4132463542,,Wind Onshore
+67 Wind Onshore,67,0.0,Generator 67 Wind Onshore,72.3279923602,,Wind Onshore
+70 Wind Onshore,70,0.0,Generator 70 Wind Onshore,132.149983123,,Wind Onshore
+71 Wind Onshore,71,0.0,Generator 71 Wind Onshore,405.642114881,,Wind Onshore
+72 Wind Onshore,72,0.0,Generator 72 Wind Onshore,510.054159155,,Wind Onshore
+73 Wind Onshore,73,0.0,Generator 73 Wind Onshore,633.681488492,,Wind Onshore
+75 Wind Onshore,75,0.0,Generator 75 Wind Onshore,602.719370584,,Wind Onshore
+76 Wind Onshore,76,0.0,Generator 76 Wind Onshore,113.714399398,,Wind Onshore
+77 Wind Onshore,77,0.0,Generator 77 Wind Onshore,225.599169646,,Wind Onshore
+79 Wind Onshore,79,0.0,Generator 79 Wind Onshore,116.66596966,,Wind Onshore
+80 Wind Onshore,80,0.0,Generator 80 Wind Onshore,36.7824924762,,Wind Onshore
+81 Wind Onshore,81,0.0,Generator 81 Wind Onshore,384.449592248,,Wind Onshore
+82 Wind Onshore,82,0.0,Generator 82 Wind Onshore,89.1408968614,,Wind Onshore
+83 Wind Onshore,83,0.0,Generator 83 Wind Onshore,45.7938996393,,Wind Onshore
+84 Wind Onshore,84,0.0,Generator 84 Wind Onshore,54.0020322251,,Wind Onshore
+85 Wind Onshore,85,0.0,Generator 85 Wind Onshore,155.605297616,,Wind Onshore
+88 Wind Onshore,88,0.0,Generator 88 Wind Onshore,3.75903786416,,Wind Onshore
+89 Wind Onshore,89,0.0,Generator 89 Wind Onshore,0.20495144136,,Wind Onshore
+90 Wind Onshore,90,0.0,Generator 90 Wind Onshore,84.5061198676,,Wind Onshore
+91 Wind Onshore,91,0.0,Generator 91 Wind Onshore,4.60112152773,,Wind Onshore
+92 Wind Onshore,92,0.0,Generator 92 Wind Onshore,71.0254994175,,Wind Onshore
+93 Wind Onshore,93,0.0,Generator 93 Wind Onshore,290.937197757,,Wind Onshore
+97 Wind Onshore,97,0.0,Generator 97 Wind Onshore,0.0266961326966,,Wind Onshore
+98 Wind Onshore,98,0.0,Generator 98 Wind Onshore,83.9306653156,,Wind Onshore
+101 Wind Onshore,101,0.0,Generator 101 Wind Onshore,350.979987644,,Wind Onshore
+102 Wind Onshore,102,0.0,Generator 102 Wind Onshore,245.381700655,,Wind Onshore
+103 Wind Onshore,103,0.0,Generator 103 Wind Onshore,0.206918168218,,Wind Onshore
+108 Wind Onshore,108,0.0,Generator 108 Wind Onshore,2.17859329378,,Wind Onshore
+109 Wind Onshore,109,0.0,Generator 109 Wind Onshore,2.28979314118,,Wind Onshore
+110 Wind Onshore,110,0.0,Generator 110 Wind Onshore,76.2216146438,,Wind Onshore
+111 Wind Onshore,111,0.0,Generator 111 Wind Onshore,320.42275108,,Wind Onshore
+112 Wind Onshore,112,0.0,Generator 112 Wind Onshore,0.778210370106,,Wind Onshore
+113 Wind Onshore,113,0.0,Generator 113 Wind Onshore,1.65455712572,,Wind Onshore
+114 Wind Onshore,114,0.0,Generator 114 Wind Onshore,89.637993199,,Wind Onshore
+115 Wind Onshore,115,0.0,Generator 115 Wind Onshore,69.5342899494,,Wind Onshore
+116 Wind Onshore,116,0.0,Generator 116 Wind Onshore,3.53636055719,,Wind Onshore
+118 Wind Onshore,118,0.0,Generator 118 Wind Onshore,13.4468885109,,Wind Onshore
+119 Wind Onshore,119,0.0,Generator 119 Wind Onshore,50.5752781935,,Wind Onshore
+121 Wind Onshore,121,0.0,Generator 121 Wind Onshore,32.6011423992,,Wind Onshore
+122 Wind Onshore,122,0.0,Generator 122 Wind Onshore,90.7925410198,,Wind Onshore
+126 Wind Onshore,126,0.0,Generator 126 Wind Onshore,8.72501236524,,Wind Onshore
+127 Wind Onshore,127,0.0,Generator 127 Wind Onshore,43.2540231528,,Wind Onshore
+130 Wind Onshore,130,0.0,Generator 130 Wind Onshore,2.41600145539,,Wind Onshore
+131 Wind Onshore,131,0.0,Generator 131 Wind Onshore,0.540589207054,,Wind Onshore
+132 Wind Onshore,132,0.0,Generator 132 Wind Onshore,1.46288325395,,Wind Onshore
+133 Wind Onshore,133,0.0,Generator 133 Wind Onshore,1.46433600229,,Wind Onshore
+134 Wind Onshore,134,0.0,Generator 134 Wind Onshore,1.28828304343,,Wind Onshore
+135 Wind Onshore,135,0.0,Generator 135 Wind Onshore,25.8188993015,,Wind Onshore
+136 Wind Onshore,136,0.0,Generator 136 Wind Onshore,29.1548929719,,Wind Onshore
+137 Wind Onshore,137,0.0,Generator 137 Wind Onshore,105.296621064,,Wind Onshore
+139 Wind Onshore,139,0.0,Generator 139 Wind Onshore,3.06138955244,,Wind Onshore
+140 Wind Onshore,140,0.0,Generator 140 Wind Onshore,4.73874713717,,Wind Onshore
+141 Wind Onshore,141,0.0,Generator 141 Wind Onshore,1.02575387048,,Wind Onshore
+142 Wind Onshore,142,0.0,Generator 142 Wind Onshore,2.8970783132,,Wind Onshore
+144 Wind Onshore,144,0.0,Generator 144 Wind Onshore,0.359496708924,,Wind Onshore
+145 Wind Onshore,145,0.0,Generator 145 Wind Onshore,0.719596947326,,Wind Onshore
+146 Wind Onshore,146,0.0,Generator 146 Wind Onshore,0.508453122526,,Wind Onshore
+147 Wind Onshore,147,0.0,Generator 147 Wind Onshore,8.11781937714,,Wind Onshore
+148 Wind Onshore,148,0.0,Generator 148 Wind Onshore,0.402699751377,,Wind Onshore
+149 Wind Onshore,149,0.0,Generator 149 Wind Onshore,3.669011551,,Wind Onshore
+150 Wind Onshore,150,0.0,Generator 150 Wind Onshore,1.25427791149,,Wind Onshore
+151 Wind Onshore,151,0.0,Generator 151 Wind Onshore,19.8227688711,,Wind Onshore
+152 Wind Onshore,152,0.0,Generator 152 Wind Onshore,28.389456755,,Wind Onshore
+153 Wind Onshore,153,0.0,Generator 153 Wind Onshore,119.464559856,,Wind Onshore
+154 Wind Onshore,154,0.0,Generator 154 Wind Onshore,1.21573343643,,Wind Onshore
+155 Wind Onshore,155,0.0,Generator 155 Wind Onshore,25.239356261,,Wind Onshore
+158 Wind Onshore,158,0.0,Generator 158 Wind Onshore,52.5273816031,,Wind Onshore
+161 Wind Onshore,161,0.0,Generator 161 Wind Onshore,175.889627208,,Wind Onshore
+162 Wind Onshore,162,0.0,Generator 162 Wind Onshore,0.861317127693,,Wind Onshore
+163 Wind Onshore,163,0.0,Generator 163 Wind Onshore,45.7037068059,,Wind Onshore
+164 Wind Onshore,164,0.0,Generator 164 Wind Onshore,17.6455290289,,Wind Onshore
+166 Wind Onshore,166,0.0,Generator 166 Wind Onshore,8.55678386233,,Wind Onshore
+167 Wind Onshore,167,0.0,Generator 167 Wind Onshore,3.62255952466,,Wind Onshore
+168 Wind Onshore,168,0.0,Generator 168 Wind Onshore,13.0361134479,,Wind Onshore
+169 Wind Onshore,169,0.0,Generator 169 Wind Onshore,0.116517735693,,Wind Onshore
+170 Wind Onshore,170,0.0,Generator 170 Wind Onshore,0.0687883675101,,Wind Onshore
+171 Wind Onshore,171,0.0,Generator 171 Wind Onshore,0.160624563218,,Wind Onshore
+172 Wind Onshore,172,0.0,Generator 172 Wind Onshore,0.609451340471,,Wind Onshore
+173 Wind Onshore,173,0.0,Generator 173 Wind Onshore,16.0223344728,,Wind Onshore
+174 Wind Onshore,174,0.0,Generator 174 Wind Onshore,4.35414698006,,Wind Onshore
+175 Wind Onshore,175,0.0,Generator 175 Wind Onshore,1.04303990751,,Wind Onshore
+176 Wind Onshore,176,0.0,Generator 176 Wind Onshore,13.4980870092,,Wind Onshore
+177 Wind Onshore,177,0.0,Generator 177 Wind Onshore,238.377761372,,Wind Onshore
+178 Wind Onshore,178,0.0,Generator 178 Wind Onshore,25.2633910944,,Wind Onshore
+179 Wind Onshore,179,0.0,Generator 179 Wind Onshore,502.409178069,,Wind Onshore
+180 Wind Onshore,180,0.0,Generator 180 Wind Onshore,330.031939735,,Wind Onshore
+181 Wind Onshore,181,0.0,Generator 181 Wind Onshore,285.625411508,,Wind Onshore
+182 Wind Onshore,182,0.0,Generator 182 Wind Onshore,57.1885789685,,Wind Onshore
+183 Wind Onshore,183,0.0,Generator 183 Wind Onshore,83.2771628571,,Wind Onshore
+185 Wind Onshore,185,0.0,Generator 185 Wind Onshore,5.05377980991,,Wind Onshore
+186 Wind Onshore,186,0.0,Generator 186 Wind Onshore,1.34577448661,,Wind Onshore
+187 Wind Onshore,187,0.0,Generator 187 Wind Onshore,2.72184505996,,Wind Onshore
+188 Wind Onshore,188,0.0,Generator 188 Wind Onshore,0.265989546307,,Wind Onshore
+189 Wind Onshore,189,0.0,Generator 189 Wind Onshore,9.02988478213,,Wind Onshore
+190 Wind Onshore,190,0.0,Generator 190 Wind Onshore,3.58404269875,,Wind Onshore
+192 Wind Onshore,192,0.0,Generator 192 Wind Onshore,254.253327175,,Wind Onshore
+193 Wind Onshore,193,0.0,Generator 193 Wind Onshore,1.26008164224,,Wind Onshore
+194 Wind Onshore,194,0.0,Generator 194 Wind Onshore,0.855454008484,,Wind Onshore
+196 Wind Onshore,196,0.0,Generator 196 Wind Onshore,0.232219951161,,Wind Onshore
+197 Wind Onshore,197,0.0,Generator 197 Wind Onshore,27.8740104664,,Wind Onshore
+198 Wind Onshore,198,0.0,Generator 198 Wind Onshore,3.16799906488,,Wind Onshore
+199 Wind Onshore,199,0.0,Generator 199 Wind Onshore,1.30629298198,,Wind Onshore
+200 Wind Onshore,200,0.0,Generator 200 Wind Onshore,0.688544563034,,Wind Onshore
+202 Wind Onshore,202,0.0,Generator 202 Wind Onshore,85.7395569744,,Wind Onshore
+203 Wind Onshore,203,0.0,Generator 203 Wind Onshore,99.3195792397,,Wind Onshore
+204 Wind Onshore,204,0.0,Generator 204 Wind Onshore,38.2225747563,,Wind Onshore
+205 Wind Onshore,205,0.0,Generator 205 Wind Onshore,4.21900521504,,Wind Onshore
+206 Wind Onshore,206,0.0,Generator 206 Wind Onshore,11.3439712953,,Wind Onshore
+207 Wind Onshore,207,0.0,Generator 207 Wind Onshore,38.9163677331,,Wind Onshore
+208 Wind Onshore,208,0.0,Generator 208 Wind Onshore,9.81457352728,,Wind Onshore
+209 Wind Onshore,209,0.0,Generator 209 Wind Onshore,179.712741143,,Wind Onshore
+210 Wind Onshore,210,0.0,Generator 210 Wind Onshore,20.2618052811,,Wind Onshore
+211 Wind Onshore,211,0.0,Generator 211 Wind Onshore,220.533673307,,Wind Onshore
+212 Wind Onshore,212,0.0,Generator 212 Wind Onshore,73.0794126745,,Wind Onshore
+213 Wind Onshore,213,0.0,Generator 213 Wind Onshore,21.4545687721,,Wind Onshore
+214 Wind Onshore,214,0.0,Generator 214 Wind Onshore,2.39995325631,,Wind Onshore
+215 Wind Onshore,215,0.0,Generator 215 Wind Onshore,8.98603573294,,Wind Onshore
+216 Wind Onshore,216,0.0,Generator 216 Wind Onshore,0.202358992327,,Wind Onshore
+217 Wind Onshore,217,0.0,Generator 217 Wind Onshore,160.697955702,,Wind Onshore
+218 Wind Onshore,218,0.0,Generator 218 Wind Onshore,90.5922662203,,Wind Onshore
+219 Wind Onshore,219,0.0,Generator 219 Wind Onshore,39.8191571163,,Wind Onshore
+221 Wind Onshore,221,0.0,Generator 221 Wind Onshore,201.421956418,,Wind Onshore
+222 Wind Onshore,222,0.0,Generator 222 Wind Onshore,56.0124084149,,Wind Onshore
+223 Wind Onshore,223,0.0,Generator 223 Wind Onshore,25.1666668423,,Wind Onshore
+224 Wind Onshore,224,0.0,Generator 224 Wind Onshore,49.892379932,,Wind Onshore
+225 Wind Onshore,225,0.0,Generator 225 Wind Onshore,182.623255886,,Wind Onshore
+226 Wind Onshore,226,0.0,Generator 226 Wind Onshore,47.5418211266,,Wind Onshore
+227 Wind Onshore,227,0.0,Generator 227 Wind Onshore,0.548842797786,,Wind Onshore
+228 Wind Onshore,228,0.0,Generator 228 Wind Onshore,3.80689419028,,Wind Onshore
+229 Wind Onshore,229,0.0,Generator 229 Wind Onshore,3.57545259247,,Wind Onshore
+230 Wind Onshore,230,0.0,Generator 230 Wind Onshore,2.24203138868,,Wind Onshore
+234 Wind Onshore,234,0.0,Generator 234 Wind Onshore,1.26826084243,,Wind Onshore
+235 Wind Onshore,235,0.0,Generator 235 Wind Onshore,9.02599008132,,Wind Onshore
+237 Wind Onshore,237,0.0,Generator 237 Wind Onshore,18.0052285695,,Wind Onshore
+238 Wind Onshore,238,0.0,Generator 238 Wind Onshore,91.1718882891,,Wind Onshore
+239 Wind Onshore,239,0.0,Generator 239 Wind Onshore,57.3427040317,,Wind Onshore
+240 Wind Onshore,240,0.0,Generator 240 Wind Onshore,4.50590653785,,Wind Onshore
+241 Wind Onshore,241,0.0,Generator 241 Wind Onshore,2.25296531835,,Wind Onshore
+242 Wind Onshore,242,0.0,Generator 242 Wind Onshore,67.7544693336,,Wind Onshore
+245 Wind Onshore,245,0.0,Generator 245 Wind Onshore,35.8716168147,,Wind Onshore
+246 Wind Onshore,246,0.0,Generator 246 Wind Onshore,0.980482439128,,Wind Onshore
+249 Wind Onshore,249,0.0,Generator 249 Wind Onshore,12.3395302249,,Wind Onshore
+253 Wind Onshore,253,0.0,Generator 253 Wind Onshore,30.5978493741,,Wind Onshore
+254 Wind Onshore,254,0.0,Generator 254 Wind Onshore,593.230436463,,Wind Onshore
+255 Wind Onshore,255,0.0,Generator 255 Wind Onshore,211.057769317,,Wind Onshore
+256 Wind Onshore,256,0.0,Generator 256 Wind Onshore,3.806101238,,Wind Onshore
+257 Wind Onshore,257,0.0,Generator 257 Wind Onshore,160.523777952,,Wind Onshore
+258 Wind Onshore,258,0.0,Generator 258 Wind Onshore,34.9314811298,,Wind Onshore
+259 Wind Onshore,259,0.0,Generator 259 Wind Onshore,3.98285835666,,Wind Onshore
+260 Wind Onshore,260,0.0,Generator 260 Wind Onshore,17.4828066828,,Wind Onshore
+262 Wind Onshore,262,0.0,Generator 262 Wind Onshore,3.02136730179,,Wind Onshore
+265 Wind Onshore,265,0.0,Generator 265 Wind Onshore,51.2442219887,,Wind Onshore
+266 Wind Onshore,266,0.0,Generator 266 Wind Onshore,1.68127574154,,Wind Onshore
+268 Wind Onshore,268,0.0,Generator 268 Wind Onshore,33.5547803098,,Wind Onshore
+269 Wind Onshore,269,0.0,Generator 269 Wind Onshore,75.0750875274,,Wind Onshore
+270 Wind Onshore,270,0.0,Generator 270 Wind Onshore,575.368279546,,Wind Onshore
+271 Wind Onshore,271,0.0,Generator 271 Wind Onshore,101.139399875,,Wind Onshore
+273 Wind Onshore,273,0.0,Generator 273 Wind Onshore,9.0373397227,,Wind Onshore
+274 Wind Onshore,274,0.0,Generator 274 Wind Onshore,82.2250352232,,Wind Onshore
+275 Wind Onshore,275,0.0,Generator 275 Wind Onshore,14.6054088834,,Wind Onshore
+276 Wind Onshore,276,0.0,Generator 276 Wind Onshore,188.691049163,,Wind Onshore
+277 Wind Onshore,277,0.0,Generator 277 Wind Onshore,2.26770583626,,Wind Onshore
+278 Wind Onshore,278,0.0,Generator 278 Wind Onshore,339.510510359,,Wind Onshore
+280 Wind Onshore,280,0.0,Generator 280 Wind Onshore,385.361595031,,Wind Onshore
+283 Wind Onshore,283,0.0,Generator 283 Wind Onshore,27.074037541,,Wind Onshore
+284 Wind Onshore,284,0.0,Generator 284 Wind Onshore,83.0798418272,,Wind Onshore
+285 Wind Onshore,285,0.0,Generator 285 Wind Onshore,323.472536333,,Wind Onshore
+286 Wind Onshore,286,0.0,Generator 286 Wind Onshore,8.0808958712,,Wind Onshore
+287 Wind Onshore,287,0.0,Generator 287 Wind Onshore,57.1278247463,,Wind Onshore
+288 Wind Onshore,288,0.0,Generator 288 Wind Onshore,21.8333957759,,Wind Onshore
+289 Wind Onshore,289,0.0,Generator 289 Wind Onshore,91.9582753388,,Wind Onshore
+290 Wind Onshore,290,0.0,Generator 290 Wind Onshore,76.1351770479,,Wind Onshore
+291 Wind Onshore,291,0.0,Generator 291 Wind Onshore,30.8305188023,,Wind Onshore
+293 Wind Onshore,293,0.0,Generator 293 Wind Onshore,23.4043450629,,Wind Onshore
+294 Wind Onshore,294,0.0,Generator 294 Wind Onshore,14.887727285,,Wind Onshore
+295 Wind Onshore,295,0.0,Generator 295 Wind Onshore,64.502694254,,Wind Onshore
+296 Wind Onshore,296,0.0,Generator 296 Wind Onshore,82.2786953613,,Wind Onshore
+297 Wind Onshore,297,0.0,Generator 297 Wind Onshore,3.81841924681,,Wind Onshore
+298 Wind Onshore,298,0.0,Generator 298 Wind Onshore,15.0918417045,,Wind Onshore
+299 Wind Onshore,299,0.0,Generator 299 Wind Onshore,88.9528798809,,Wind Onshore
+300 Wind Onshore,300,0.0,Generator 300 Wind Onshore,235.487328921,,Wind Onshore
+301 Wind Onshore,301,0.0,Generator 301 Wind Onshore,109.288718785,,Wind Onshore
+302 Wind Onshore,302,0.0,Generator 302 Wind Onshore,20.1687166138,,Wind Onshore
+304 Wind Onshore,304,0.0,Generator 304 Wind Onshore,201.699554501,,Wind Onshore
+305 Wind Onshore,305,0.0,Generator 305 Wind Onshore,0.524108115665,,Wind Onshore
+306 Wind Onshore,306,0.0,Generator 306 Wind Onshore,0.352420710612,,Wind Onshore
+309 Wind Onshore,309,0.0,Generator 309 Wind Onshore,82.0353612917,,Wind Onshore
+310 Wind Onshore,310,0.0,Generator 310 Wind Onshore,6.65472673495,,Wind Onshore
+311 Wind Onshore,311,0.0,Generator 311 Wind Onshore,119.710848522,,Wind Onshore
+313 Wind Onshore,313,0.0,Generator 313 Wind Onshore,39.469005702,,Wind Onshore
+314 Wind Onshore,314,0.0,Generator 314 Wind Onshore,3.4294999088,,Wind Onshore
+316 Wind Onshore,316,0.0,Generator 316 Wind Onshore,5.10582944022,,Wind Onshore
+318 Wind Onshore,318,0.0,Generator 318 Wind Onshore,38.9505114335,,Wind Onshore
+319 Wind Onshore,319,0.0,Generator 319 Wind Onshore,47.3717915205,,Wind Onshore
+320 Wind Onshore,320,0.0,Generator 320 Wind Onshore,1.23166024502,,Wind Onshore
+321 Wind Onshore,321,0.0,Generator 321 Wind Onshore,2.16920079779,,Wind Onshore
+323 Wind Onshore,323,0.0,Generator 323 Wind Onshore,53.0956287692,,Wind Onshore
+324 Wind Onshore,324,0.0,Generator 324 Wind Onshore,99.0752999943,,Wind Onshore
+325 Wind Onshore,325,0.0,Generator 325 Wind Onshore,25.6556410363,,Wind Onshore
+326 Wind Onshore,326,0.0,Generator 326 Wind Onshore,65.61125218,,Wind Onshore
+327 Wind Onshore,327,0.0,Generator 327 Wind Onshore,170.437781001,,Wind Onshore
+328 Wind Onshore,328,0.0,Generator 328 Wind Onshore,0.00434449024199,,Wind Onshore
+329 Wind Onshore,329,0.0,Generator 329 Wind Onshore,0.626493907051,,Wind Onshore
+330 Wind Onshore,330,0.0,Generator 330 Wind Onshore,2.51245968177,,Wind Onshore
+331 Wind Onshore,331,0.0,Generator 331 Wind Onshore,4.36303730827,,Wind Onshore
+333 Wind Onshore,333,0.0,Generator 333 Wind Onshore,1297.76442825,,Wind Onshore
+335 Wind Onshore,335,0.0,Generator 335 Wind Onshore,28.4263216809,,Wind Onshore
+337 Wind Onshore,337,0.0,Generator 337 Wind Onshore,2.93704756536,,Wind Onshore
+339 Wind Onshore,339,0.0,Generator 339 Wind Onshore,17.8722009047,,Wind Onshore
+340 Wind Onshore,340,0.0,Generator 340 Wind Onshore,93.1996278632,,Wind Onshore
+341 Wind Onshore,341,0.0,Generator 341 Wind Onshore,148.402692339,,Wind Onshore
+342 Wind Onshore,342,0.0,Generator 342 Wind Onshore,184.14923543,,Wind Onshore
+343 Wind Onshore,343,0.0,Generator 343 Wind Onshore,4.90197409828,,Wind Onshore
+344 Wind Onshore,344,0.0,Generator 344 Wind Onshore,98.2933506333,,Wind Onshore
+345 Wind Onshore,345,0.0,Generator 345 Wind Onshore,41.6820737696,,Wind Onshore
+346 Wind Onshore,346,0.0,Generator 346 Wind Onshore,2.40210740929,,Wind Onshore
+347 Wind Onshore,347,0.0,Generator 347 Wind Onshore,5.39742965672,,Wind Onshore
+348 Wind Onshore,348,0.0,Generator 348 Wind Onshore,5.87366595854,,Wind Onshore
+349 Wind Onshore,349,0.0,Generator 349 Wind Onshore,27.3564890353,,Wind Onshore
+350 Wind Onshore,350,0.0,Generator 350 Wind Onshore,177.778741548,,Wind Onshore
+352 Wind Onshore,352,0.0,Generator 352 Wind Onshore,4.01460326021,,Wind Onshore
+354 Wind Onshore,354,0.0,Generator 354 Wind Onshore,2.15820669618,,Wind Onshore
+355 Wind Onshore,355,0.0,Generator 355 Wind Onshore,23.74405048,,Wind Onshore
+356 Wind Onshore,356,0.0,Generator 356 Wind Onshore,60.8633036939,,Wind Onshore
+357 Wind Onshore,357,0.0,Generator 357 Wind Onshore,4.87729945362,,Wind Onshore
+358 Wind Onshore,358,0.0,Generator 358 Wind Onshore,4.33551577107,,Wind Onshore
+359 Wind Onshore,359,0.0,Generator 359 Wind Onshore,9.59431935716,,Wind Onshore
+361 Wind Onshore,361,0.0,Generator 361 Wind Onshore,0.00456719955131,,Wind Onshore
+363 Wind Onshore,363,0.0,Generator 363 Wind Onshore,1.82701375341,,Wind Onshore
+364 Wind Onshore,364,0.0,Generator 364 Wind Onshore,0.298940300013,,Wind Onshore
+365 Wind Onshore,365,0.0,Generator 365 Wind Onshore,3.27832133929,,Wind Onshore
+366 Wind Onshore,366,0.0,Generator 366 Wind Onshore,3.34909004921,,Wind Onshore
+367 Wind Onshore,367,0.0,Generator 367 Wind Onshore,1.64588987762,,Wind Onshore
+368 Wind Onshore,368,0.0,Generator 368 Wind Onshore,11.8540035349,,Wind Onshore
+369 Wind Onshore,369,0.0,Generator 369 Wind Onshore,262.264924035,,Wind Onshore
+370 Wind Onshore,370,0.0,Generator 370 Wind Onshore,30.8367475842,,Wind Onshore
+371 Wind Onshore,371,0.0,Generator 371 Wind Onshore,12.0039872819,,Wind Onshore
+372 Wind Onshore,372,0.0,Generator 372 Wind Onshore,7.87902661745,,Wind Onshore
+373 Wind Onshore,373,0.0,Generator 373 Wind Onshore,2.75749675502,,Wind Onshore
+374 Wind Onshore,374,0.0,Generator 374 Wind Onshore,23.9585741942,,Wind Onshore
+375 Wind Onshore,375,0.0,Generator 375 Wind Onshore,1.95633185604,,Wind Onshore
+376 Wind Onshore,376,0.0,Generator 376 Wind Onshore,17.7082761196,,Wind Onshore
+377 Wind Onshore,377,0.0,Generator 377 Wind Onshore,20.7585904677,,Wind Onshore
+378 Wind Onshore,378,0.0,Generator 378 Wind Onshore,0.161123144974,,Wind Onshore
+379 Wind Onshore,379,0.0,Generator 379 Wind Onshore,0.929763183455,,Wind Onshore
+380 Wind Onshore,380,0.0,Generator 380 Wind Onshore,199.111908709,,Wind Onshore
+381 Wind Onshore,381,0.0,Generator 381 Wind Onshore,13.0632583963,,Wind Onshore
+383 Wind Onshore,383,0.0,Generator 383 Wind Onshore,90.4975589655,,Wind Onshore
+386 Wind Onshore,386,0.0,Generator 386 Wind Onshore,56.928865333,,Wind Onshore
+387 Wind Onshore,387,0.0,Generator 387 Wind Onshore,50.7968954699,,Wind Onshore
+388 Wind Onshore,388,0.0,Generator 388 Wind Onshore,16.0633432056,,Wind Onshore
+389 Wind Onshore,389,0.0,Generator 389 Wind Onshore,218.675423603,,Wind Onshore
+390 Wind Onshore,390,0.0,Generator 390 Wind Onshore,30.1310283897,,Wind Onshore
+392 Wind Onshore,392,0.0,Generator 392 Wind Onshore,0.289238434706,,Wind Onshore
+393 Wind Onshore,393,0.0,Generator 393 Wind Onshore,26.2930875243,,Wind Onshore
+394 Wind Onshore,394,0.0,Generator 394 Wind Onshore,45.6502535882,,Wind Onshore
+395 Wind Onshore,395,0.0,Generator 395 Wind Onshore,1.21534084768,,Wind Onshore
+396 Wind Onshore,396,0.0,Generator 396 Wind Onshore,3.306939311,,Wind Onshore
+397 Wind Onshore,397,0.0,Generator 397 Wind Onshore,29.7730350488,,Wind Onshore
+398 Wind Onshore,398,0.0,Generator 398 Wind Onshore,121.31240995,,Wind Onshore
+399 Wind Onshore,399,0.0,Generator 399 Wind Onshore,0.832524410153,,Wind Onshore
+400 Wind Onshore,400,0.0,Generator 400 Wind Onshore,10.0864820071,,Wind Onshore
+401 Wind Onshore,401,0.0,Generator 401 Wind Onshore,70.0983272434,,Wind Onshore
+402 Wind Onshore,402,0.0,Generator 402 Wind Onshore,205.513321072,,Wind Onshore
+405 Wind Onshore,405,0.0,Generator 405 Wind Onshore,0.734589478908,,Wind Onshore
+406 Wind Onshore,406,0.0,Generator 406 Wind Onshore,1.10210758817,,Wind Onshore
+409 Wind Onshore,409,0.0,Generator 409 Wind Onshore,0.226056957693,,Wind Onshore
+410 Wind Onshore,410,0.0,Generator 410 Wind Onshore,3.97118800864,,Wind Onshore
+411 Wind Onshore,411,0.0,Generator 411 Wind Onshore,214.719214758,,Wind Onshore
+412 Wind Onshore,412,0.0,Generator 412 Wind Onshore,414.115976321,,Wind Onshore
+414 Wind Onshore,414,0.0,Generator 414 Wind Onshore,22.7079271365,,Wind Onshore
+415 Wind Onshore,415,0.0,Generator 415 Wind Onshore,42.3523424512,,Wind Onshore
+416 Wind Onshore,416,0.0,Generator 416 Wind Onshore,0.0949711377878,,Wind Onshore
+417 Wind Onshore,417,0.0,Generator 417 Wind Onshore,0.0159577330889,,Wind Onshore
+418 Wind Onshore,418,0.0,Generator 418 Wind Onshore,0.837260326848,,Wind Onshore
+422 Wind Onshore,422,0.0,Generator 422 Wind Onshore,2.1470467446e-08,,Wind Onshore
+423 Wind Onshore,423,0.0,Generator 423 Wind Onshore,0.147716007334,,Wind Onshore
+424 Wind Onshore,424,0.0,Generator 424 Wind Onshore,1.68832442006,,Wind Onshore
+425 Wind Onshore,425,0.0,Generator 425 Wind Onshore,73.4862311837,,Wind Onshore
+426 Wind Onshore,426,0.0,Generator 426 Wind Onshore,56.4599127019,,Wind Onshore
+427 Wind Onshore,427,0.0,Generator 427 Wind Onshore,0.247292713667,,Wind Onshore
+428 Wind Onshore,428,0.0,Generator 428 Wind Onshore,70.6335891308,,Wind Onshore
+429 Wind Onshore,429,0.0,Generator 429 Wind Onshore,17.1359833072,,Wind Onshore
+430 Wind Onshore,430,0.0,Generator 430 Wind Onshore,63.2071733464,,Wind Onshore
+431 Wind Onshore,431,0.0,Generator 431 Wind Onshore,79.1072159825,,Wind Onshore
+432 Wind Onshore,432,0.0,Generator 432 Wind Onshore,0.0361579458313,,Wind Onshore
+433 Wind Onshore,433,0.0,Generator 433 Wind Onshore,0.0610682185031,,Wind Onshore
+434 Wind Onshore,434,0.0,Generator 434 Wind Onshore,0.000455522242349,,Wind Onshore
+435 Wind Onshore,435,0.0,Generator 435 Wind Onshore,1.22999224722,,Wind Onshore
+436 Wind Onshore,436,0.0,Generator 436 Wind Onshore,43.8638910737,,Wind Onshore
+437 Wind Onshore,437,0.0,Generator 437 Wind Onshore,3.29824335081,,Wind Onshore
+438 Wind Onshore,438,0.0,Generator 438 Wind Onshore,7.96885916892,,Wind Onshore
+439 Wind Onshore,439,0.0,Generator 439 Wind Onshore,0.343307573159,,Wind Onshore
+440 Wind Onshore,440,0.0,Generator 440 Wind Onshore,81.7672084659,,Wind Onshore
+441 Wind Onshore,441,0.0,Generator 441 Wind Onshore,192.966587575,,Wind Onshore
+442 Wind Onshore,442,0.0,Generator 442 Wind Onshore,35.2002569935,,Wind Onshore
+443 Wind Onshore,443,0.0,Generator 443 Wind Onshore,108.220145939,,Wind Onshore
+444 Wind Onshore,444,0.0,Generator 444 Wind Onshore,61.2238159146,,Wind Onshore
+445 Wind Onshore,445,0.0,Generator 445 Wind Onshore,176.213655222,,Wind Onshore
+446 Wind Onshore,446,0.0,Generator 446 Wind Onshore,234.376272084,,Wind Onshore
+447 Wind Onshore,447,0.0,Generator 447 Wind Onshore,246.029905672,,Wind Onshore
+448 Wind Onshore,448,0.0,Generator 448 Wind Onshore,0.805984486427,,Wind Onshore
+449 Wind Onshore,449,0.0,Generator 449 Wind Onshore,1.21335617518,,Wind Onshore
+451 Wind Onshore,451,0.0,Generator 451 Wind Onshore,1.01257029068,,Wind Onshore
+452 Wind Onshore,452,0.0,Generator 452 Wind Onshore,138.839906457,,Wind Onshore
+453 Wind Onshore,453,0.0,Generator 453 Wind Onshore,109.821439285,,Wind Onshore
+454 Wind Onshore,454,0.0,Generator 454 Wind Onshore,4.66913458007,,Wind Onshore
+455 Wind Onshore,455,0.0,Generator 455 Wind Onshore,0.124454538855,,Wind Onshore
+456 Wind Onshore,456,0.0,Generator 456 Wind Onshore,0.673857688536,,Wind Onshore
+457 Wind Onshore,457,0.0,Generator 457 Wind Onshore,3.4935608962,,Wind Onshore
+459 Wind Onshore,459,0.0,Generator 459 Wind Onshore,0.928187582185,,Wind Onshore
+460 Wind Onshore,460,0.0,Generator 460 Wind Onshore,0.213536185243,,Wind Onshore
+461 Wind Onshore,461,0.0,Generator 461 Wind Onshore,3.73281623771,,Wind Onshore
+462 Wind Onshore,462,0.0,Generator 462 Wind Onshore,0.521719224928,,Wind Onshore
+463 Wind Onshore,463,0.0,Generator 463 Wind Onshore,19.3063857702,,Wind Onshore
+464 Wind Onshore,464,0.0,Generator 464 Wind Onshore,1.37650939265,,Wind Onshore
+465 Wind Onshore,465,0.0,Generator 465 Wind Onshore,1.0778860584,,Wind Onshore
+466 Wind Onshore,466,0.0,Generator 466 Wind Onshore,0.073776456668,,Wind Onshore
+467 Wind Onshore,467,0.0,Generator 467 Wind Onshore,0.0261115323765,,Wind Onshore
+468 Wind Onshore,468,0.0,Generator 468 Wind Onshore,25.0845450748,,Wind Onshore
+469 Wind Onshore,469,0.0,Generator 469 Wind Onshore,2.77964085133,,Wind Onshore
+470 Wind Onshore,470,0.0,Generator 470 Wind Onshore,17.8681570236,,Wind Onshore
+471 Wind Onshore,471,0.0,Generator 471 Wind Onshore,1.29719736092,,Wind Onshore
+472 Wind Onshore,472,0.0,Generator 472 Wind Onshore,89.339497458,,Wind Onshore
+473 Wind Onshore,473,0.0,Generator 473 Wind Onshore,26.3289024862,,Wind Onshore
+474 Wind Onshore,474,0.0,Generator 474 Wind Onshore,119.651672188,,Wind Onshore
+475 Wind Onshore,475,0.0,Generator 475 Wind Onshore,134.800517856,,Wind Onshore
+476 Wind Onshore,476,0.0,Generator 476 Wind Onshore,29.5508022611,,Wind Onshore
+477 Wind Onshore,477,0.0,Generator 477 Wind Onshore,10.763986748,,Wind Onshore
+478 Wind Onshore,478,0.0,Generator 478 Wind Onshore,0.211614489114,,Wind Onshore
+479 Wind Onshore,479,0.0,Generator 479 Wind Onshore,41.0786982606,,Wind Onshore
+480 Wind Onshore,480,0.0,Generator 480 Wind Onshore,12.0197862477,,Wind Onshore
+481 Wind Onshore,481,0.0,Generator 481 Wind Onshore,37.466518157,,Wind Onshore
+482 Wind Onshore,482,0.0,Generator 482 Wind Onshore,39.3953665018,,Wind Onshore
+483 Wind Onshore,483,0.0,Generator 483 Wind Onshore,5.98760147471,,Wind Onshore
+484 Wind Onshore,484,0.0,Generator 484 Wind Onshore,5.67979087386,,Wind Onshore
+485 Wind Onshore,485,0.0,Generator 485 Wind Onshore,25.9924891673,,Wind Onshore
+486 Wind Onshore,486,0.0,Generator 486 Wind Onshore,7.45450093216,,Wind Onshore
+487 Wind Onshore,487,0.0,Generator 487 Wind Onshore,7.95800152789,,Wind Onshore
+488 Wind Onshore,488,0.0,Generator 488 Wind Onshore,0.00131066478912,,Wind Onshore
+489 Wind Onshore,489,0.0,Generator 489 Wind Onshore,88.2646125587,,Wind Onshore
+490 Wind Onshore,490,0.0,Generator 490 Wind Onshore,33.260903116,,Wind Onshore
+491 Wind Onshore,491,0.0,Generator 491 Wind Onshore,1.39975698126,,Wind Onshore
+492 Wind Onshore,492,0.0,Generator 492 Wind Onshore,6.97236853525,,Wind Onshore
+493 Wind Onshore,493,0.0,Generator 493 Wind Onshore,4.73049465924,,Wind Onshore
+494 Wind Onshore,494,0.0,Generator 494 Wind Onshore,1.93101668749,,Wind Onshore
+495 Wind Onshore,495,0.0,Generator 495 Wind Onshore,219.092115221,,Wind Onshore
+2_220kV Wind Onshore,2_220kV,0.0,Generator 2_220kV Wind Onshore,21.3664022656,,Wind Onshore
+5_220kV Wind Onshore,5_220kV,0.0,Generator 5_220kV Wind Onshore,68.762601706,,Wind Onshore
+10_220kV Wind Onshore,10_220kV,0.0,Generator 10_220kV Wind Onshore,480.698670974,,Wind Onshore
+12_220kV Wind Onshore,12_220kV,0.0,Generator 12_220kV Wind Onshore,334.885742705,,Wind Onshore
+13_220kV Wind Onshore,13_220kV,0.0,Generator 13_220kV Wind Onshore,13.279826168,,Wind Onshore
+15_220kV Wind Onshore,15_220kV,0.0,Generator 15_220kV Wind Onshore,0.0342484524703,,Wind Onshore
+18_220kV Wind Onshore,18_220kV,0.0,Generator 18_220kV Wind Onshore,227.66202248,,Wind Onshore
+20_220kV Wind Onshore,20_220kV,0.0,Generator 20_220kV Wind Onshore,12.0589307388,,Wind Onshore
+22_220kV Wind Onshore,22_220kV,0.0,Generator 22_220kV Wind Onshore,1289.24118792,,Wind Onshore
+24_220kV Wind Onshore,24_220kV,0.0,Generator 24_220kV Wind Onshore,99.4400143411,,Wind Onshore
+26_220kV Wind Onshore,26_220kV,0.0,Generator 26_220kV Wind Onshore,86.7132172475,,Wind Onshore
+30_220kV Wind Onshore,30_220kV,0.0,Generator 30_220kV Wind Onshore,98.4341164973,,Wind Onshore
+32_220kV Wind Onshore,32_220kV,0.0,Generator 32_220kV Wind Onshore,238.321957679,,Wind Onshore
+37_220kV Wind Onshore,37_220kV,0.0,Generator 37_220kV Wind Onshore,392.815157911,,Wind Onshore
+42_220kV Wind Onshore,42_220kV,0.0,Generator 42_220kV Wind Onshore,99.1031638333,,Wind Onshore
+46_220kV Wind Onshore,46_220kV,0.0,Generator 46_220kV Wind Onshore,0.833608678014,,Wind Onshore
+52_220kV Wind Onshore,52_220kV,0.0,Generator 52_220kV Wind Onshore,0.171578405746,,Wind Onshore
+56_220kV Wind Onshore,56_220kV,0.0,Generator 56_220kV Wind Onshore,0.715522464707,,Wind Onshore
+61_220kV Wind Onshore,61_220kV,0.0,Generator 61_220kV Wind Onshore,103.00507623,,Wind Onshore
+68_220kV Wind Onshore,68_220kV,0.0,Generator 68_220kV Wind Onshore,8.98169605456,,Wind Onshore
+69_220kV Wind Onshore,69_220kV,0.0,Generator 69_220kV Wind Onshore,25.0367994661,,Wind Onshore
+74_220kV Wind Onshore,74_220kV,0.0,Generator 74_220kV Wind Onshore,758.547933152,,Wind Onshore
+78_220kV Wind Onshore,78_220kV,0.0,Generator 78_220kV Wind Onshore,89.4774107804,,Wind Onshore
+86_220kV Wind Onshore,86_220kV,0.0,Generator 86_220kV Wind Onshore,7.52357781345,,Wind Onshore
+87_220kV Wind Onshore,87_220kV,0.0,Generator 87_220kV Wind Onshore,95.4376729474,,Wind Onshore
+94_220kV Wind Onshore,94_220kV,0.0,Generator 94_220kV Wind Onshore,59.2568089536,,Wind Onshore
+95_220kV Wind Onshore,95_220kV,0.0,Generator 95_220kV Wind Onshore,68.1988383832,,Wind Onshore
+96_220kV Wind Onshore,96_220kV,0.0,Generator 96_220kV Wind Onshore,24.0689205783,,Wind Onshore
+99_220kV Wind Onshore,99_220kV,0.0,Generator 99_220kV Wind Onshore,64.9377498058,,Wind Onshore
+100_220kV Wind Onshore,100_220kV,0.0,Generator 100_220kV Wind Onshore,155.126607127,,Wind Onshore
+104_220kV Wind Onshore,104_220kV,0.0,Generator 104_220kV Wind Onshore,0.654438393951,,Wind Onshore
+105_220kV Wind Onshore,105_220kV,0.0,Generator 105_220kV Wind Onshore,50.0548224713,,Wind Onshore
+106_220kV Wind Onshore,106_220kV,0.0,Generator 106_220kV Wind Onshore,2.00267243918,,Wind Onshore
+107_220kV Wind Onshore,107_220kV,0.0,Generator 107_220kV Wind Onshore,0.246199309224,,Wind Onshore
+117_220kV Wind Onshore,117_220kV,0.0,Generator 117_220kV Wind Onshore,5.30905864691,,Wind Onshore
+120_220kV Wind Onshore,120_220kV,0.0,Generator 120_220kV Wind Onshore,101.498472549,,Wind Onshore
+123_220kV Wind Onshore,123_220kV,0.0,Generator 123_220kV Wind Onshore,17.9517371195,,Wind Onshore
+124_220kV Wind Onshore,124_220kV,0.0,Generator 124_220kV Wind Onshore,2.40268588876,,Wind Onshore
+125_220kV Wind Onshore,125_220kV,0.0,Generator 125_220kV Wind Onshore,0.711206857594,,Wind Onshore
+128_220kV Wind Onshore,128_220kV,0.0,Generator 128_220kV Wind Onshore,218.884211419,,Wind Onshore
+129_220kV Wind Onshore,129_220kV,0.0,Generator 129_220kV Wind Onshore,5.2999386857,,Wind Onshore
+138_220kV Wind Onshore,138_220kV,0.0,Generator 138_220kV Wind Onshore,5.68501661608,,Wind Onshore
+143_220kV Wind Onshore,143_220kV,0.0,Generator 143_220kV Wind Onshore,2.09615495407,,Wind Onshore
+156_220kV Wind Onshore,156_220kV,0.0,Generator 156_220kV Wind Onshore,23.7891713059,,Wind Onshore
+157_220kV Wind Onshore,157_220kV,0.0,Generator 157_220kV Wind Onshore,65.0074668763,,Wind Onshore
+159_220kV Wind Onshore,159_220kV,0.0,Generator 159_220kV Wind Onshore,78.9652647132,,Wind Onshore
+160_220kV Wind Onshore,160_220kV,0.0,Generator 160_220kV Wind Onshore,159.165074052,,Wind Onshore
+165_220kV Wind Onshore,165_220kV,0.0,Generator 165_220kV Wind Onshore,11.9801821685,,Wind Onshore
+184_220kV Wind Onshore,184_220kV,0.0,Generator 184_220kV Wind Onshore,8.36260839263,,Wind Onshore
+191_220kV Wind Onshore,191_220kV,0.0,Generator 191_220kV Wind Onshore,1.39894761524,,Wind Onshore
+195_220kV Wind Onshore,195_220kV,0.0,Generator 195_220kV Wind Onshore,0.390879959804,,Wind Onshore
+201_220kV Wind Onshore,201_220kV,0.0,Generator 201_220kV Wind Onshore,250.480113476,,Wind Onshore
+220_220kV Wind Onshore,220_220kV,0.0,Generator 220_220kV Wind Onshore,12.1229743482,,Wind Onshore
+231_220kV Wind Onshore,231_220kV,0.0,Generator 231_220kV Wind Onshore,0.0358333813701,,Wind Onshore
+232_220kV Wind Onshore,232_220kV,0.0,Generator 232_220kV Wind Onshore,5.59260608432,,Wind Onshore
+233_220kV Wind Onshore,233_220kV,0.0,Generator 233_220kV Wind Onshore,18.681964382,,Wind Onshore
+236_220kV Wind Onshore,236_220kV,0.0,Generator 236_220kV Wind Onshore,0.0531461245219,,Wind Onshore
+247_220kV Wind Onshore,247_220kV,0.0,Generator 247_220kV Wind Onshore,17.5108302983,,Wind Onshore
+248_220kV Wind Onshore,248_220kV,0.0,Generator 248_220kV Wind Onshore,3.59964866908,,Wind Onshore
+250_220kV Wind Onshore,250_220kV,0.0,Generator 250_220kV Wind Onshore,0.0299096483521,,Wind Onshore
+251_220kV Wind Onshore,251_220kV,0.0,Generator 251_220kV Wind Onshore,0.563547347789,,Wind Onshore
+252_220kV Wind Onshore,252_220kV,0.0,Generator 252_220kV Wind Onshore,2.89934039102,,Wind Onshore
+261_220kV Wind Onshore,261_220kV,0.0,Generator 261_220kV Wind Onshore,1.14291745916,,Wind Onshore
+264_220kV Wind Onshore,264_220kV,0.0,Generator 264_220kV Wind Onshore,5.56985592836,,Wind Onshore
+267_220kV Wind Onshore,267_220kV,0.0,Generator 267_220kV Wind Onshore,0.118937830652,,Wind Onshore
+272_220kV Wind Onshore,272_220kV,0.0,Generator 272_220kV Wind Onshore,782.463701225,,Wind Onshore
+279_220kV Wind Onshore,279_220kV,0.0,Generator 279_220kV Wind Onshore,84.6228380201,,Wind Onshore
+281_220kV Wind Onshore,281_220kV,0.0,Generator 281_220kV Wind Onshore,229.927503412,,Wind Onshore
+282_220kV Wind Onshore,282_220kV,0.0,Generator 282_220kV Wind Onshore,83.5571752494,,Wind Onshore
+292_220kV Wind Onshore,292_220kV,0.0,Generator 292_220kV Wind Onshore,404.486732631,,Wind Onshore
+303_220kV Wind Onshore,303_220kV,0.0,Generator 303_220kV Wind Onshore,66.9207172853,,Wind Onshore
+307_220kV Wind Onshore,307_220kV,0.0,Generator 307_220kV Wind Onshore,0.000282085714083,,Wind Onshore
+308_220kV Wind Onshore,308_220kV,0.0,Generator 308_220kV Wind Onshore,89.0700055742,,Wind Onshore
+312_220kV Wind Onshore,312_220kV,0.0,Generator 312_220kV Wind Onshore,105.800801794,,Wind Onshore
+315_220kV Wind Onshore,315_220kV,0.0,Generator 315_220kV Wind Onshore,2.28667590888,,Wind Onshore
+317_220kV Wind Onshore,317_220kV,0.0,Generator 317_220kV Wind Onshore,0.15481733758,,Wind Onshore
+322_220kV Wind Onshore,322_220kV,0.0,Generator 322_220kV Wind Onshore,8.16533291814,,Wind Onshore
+332_220kV Wind Onshore,332_220kV,0.0,Generator 332_220kV Wind Onshore,0.938928397166,,Wind Onshore
+334_220kV Wind Onshore,334_220kV,0.0,Generator 334_220kV Wind Onshore,45.9721869349,,Wind Onshore
+336_220kV Wind Onshore,336_220kV,0.0,Generator 336_220kV Wind Onshore,188.822835863,,Wind Onshore
+338_220kV Wind Onshore,338_220kV,0.0,Generator 338_220kV Wind Onshore,26.7659131433,,Wind Onshore
+351_220kV Wind Onshore,351_220kV,0.0,Generator 351_220kV Wind Onshore,56.406717084,,Wind Onshore
+353_220kV Wind Onshore,353_220kV,0.0,Generator 353_220kV Wind Onshore,15.4380419165,,Wind Onshore
+360_220kV Wind Onshore,360_220kV,0.0,Generator 360_220kV Wind Onshore,0.065259330574,,Wind Onshore
+362_220kV Wind Onshore,362_220kV,0.0,Generator 362_220kV Wind Onshore,0.0051931708536,,Wind Onshore
+382_220kV Wind Onshore,382_220kV,0.0,Generator 382_220kV Wind Onshore,107.008141438,,Wind Onshore
+384_220kV Wind Onshore,384_220kV,0.0,Generator 384_220kV Wind Onshore,155.221920322,,Wind Onshore
+385_220kV Wind Onshore,385_220kV,0.0,Generator 385_220kV Wind Onshore,64.1300521047,,Wind Onshore
+391_220kV Wind Onshore,391_220kV,0.0,Generator 391_220kV Wind Onshore,23.0517859404,,Wind Onshore
+403_220kV Wind Onshore,403_220kV,0.0,Generator 403_220kV Wind Onshore,0.0277114755375,,Wind Onshore
+404_220kV Wind Onshore,404_220kV,0.0,Generator 404_220kV Wind Onshore,0.00632964140695,,Wind Onshore
+413_220kV Wind Onshore,413_220kV,0.0,Generator 413_220kV Wind Onshore,0.0288099331934,,Wind Onshore
+421_220kV Wind Onshore,421_220kV,0.0,Generator 421_220kV Wind Onshore,1.28680397051,,Wind Onshore
+450_220kV Wind Onshore,450_220kV,0.0,Generator 450_220kV Wind Onshore,0.670542049842,,Wind Onshore
+458_220kV Wind Onshore,458_220kV,0.0,Generator 458_220kV Wind Onshore,0.0465395074554,,Wind Onshore
+1 Solar,1,0.0,Generator 1 Solar,79.6742560609,,Solar
+3 Solar,3,0.0,Generator 3 Solar,31.1791155392,,Solar
+4 Solar,4,0.0,Generator 4 Solar,40.212665684,,Solar
+6 Solar,6,0.0,Generator 6 Solar,20.3045209459,,Solar
+7 Solar,7,0.0,Generator 7 Solar,26.1592506043,,Solar
+8 Solar,8,0.0,Generator 8 Solar,68.4254026128,,Solar
+9 Solar,9,0.0,Generator 9 Solar,44.4785577653,,Solar
+11 Solar,11,0.0,Generator 11 Solar,103.998682344,,Solar
+14 Solar,14,0.0,Generator 14 Solar,41.3867255852,,Solar
+16 Solar,16,0.0,Generator 16 Solar,84.3780121085,,Solar
+17 Solar,17,0.0,Generator 17 Solar,79.0551550636,,Solar
+19 Solar,19,0.0,Generator 19 Solar,183.821408516,,Solar
+21 Solar,21,0.0,Generator 21 Solar,37.3790334569,,Solar
+23 Solar,23,0.0,Generator 23 Solar,37.369338741,,Solar
+25 Solar,25,0.0,Generator 25 Solar,29.5166073047,,Solar
+27 Solar,27,0.0,Generator 27 Solar,8.93177879641,,Solar
+28 Solar,28,0.0,Generator 28 Solar,39.2614503805,,Solar
+29 Solar,29,0.0,Generator 29 Solar,99.7401656585,,Solar
+31 Solar,31,0.0,Generator 31 Solar,130.774402129,,Solar
+33 Solar,33,0.0,Generator 33 Solar,201.766962889,,Solar
+34 Solar,34,0.0,Generator 34 Solar,4.16018945038,,Solar
+35 Solar,35,0.0,Generator 35 Solar,3.42991713565,,Solar
+36 Solar,36,0.0,Generator 36 Solar,50.2879465505,,Solar
+38 Solar,38,0.0,Generator 38 Solar,14.7886688836,,Solar
+39 Solar,39,0.0,Generator 39 Solar,121.437125869,,Solar
+40 Solar,40,0.0,Generator 40 Solar,185.545127919,,Solar
+41 Solar,41,0.0,Generator 41 Solar,255.443429575,,Solar
+43 Solar,43,0.0,Generator 43 Solar,362.597919288,,Solar
+44 Solar,44,0.0,Generator 44 Solar,21.273778898,,Solar
+45 Solar,45,0.0,Generator 45 Solar,77.0174857744,,Solar
+47 Solar,47,0.0,Generator 47 Solar,5.21471479441,,Solar
+48 Solar,48,0.0,Generator 48 Solar,9.57649096897,,Solar
+49 Solar,49,0.0,Generator 49 Solar,54.0354709189,,Solar
+50 Solar,50,0.0,Generator 50 Solar,92.4802821362,,Solar
+51 Solar,51,0.0,Generator 51 Solar,155.333413197,,Solar
+53 Solar,53,0.0,Generator 53 Solar,103.86577437,,Solar
+54 Solar,54,0.0,Generator 54 Solar,40.3763462646,,Solar
+55 Solar,55,0.0,Generator 55 Solar,25.9902423186,,Solar
+57 Solar,57,0.0,Generator 57 Solar,24.6223726015,,Solar
+58 Solar,58,0.0,Generator 58 Solar,112.609207037,,Solar
+59 Solar,59,0.0,Generator 59 Solar,86.3959417736,,Solar
+60 Solar,60,0.0,Generator 60 Solar,19.1273788624,,Solar
+62 Solar,62,0.0,Generator 62 Solar,61.8883512149,,Solar
+63 Solar,63,0.0,Generator 63 Solar,106.233906737,,Solar
+64 Solar,64,0.0,Generator 64 Solar,58.2728200809,,Solar
+65 Solar,65,0.0,Generator 65 Solar,12.8393796824,,Solar
+66 Solar,66,0.0,Generator 66 Solar,358.676350566,,Solar
+67 Solar,67,0.0,Generator 67 Solar,29.5317709447,,Solar
+70 Solar,70,0.0,Generator 70 Solar,89.3005966177,,Solar
+71 Solar,71,0.0,Generator 71 Solar,328.718571189,,Solar
+72 Solar,72,0.0,Generator 72 Solar,243.241909161,,Solar
+73 Solar,73,0.0,Generator 73 Solar,203.443402523,,Solar
+75 Solar,75,0.0,Generator 75 Solar,232.127956348,,Solar
+76 Solar,76,0.0,Generator 76 Solar,80.4037717732,,Solar
+77 Solar,77,0.0,Generator 77 Solar,144.715972126,,Solar
+79 Solar,79,0.0,Generator 79 Solar,153.606375759,,Solar
+80 Solar,80,0.0,Generator 80 Solar,34.2620170352,,Solar
+81 Solar,81,0.0,Generator 81 Solar,217.054487558,,Solar
+82 Solar,82,0.0,Generator 82 Solar,16.3482224843,,Solar
+83 Solar,83,0.0,Generator 83 Solar,35.1643325868,,Solar
+84 Solar,84,0.0,Generator 84 Solar,21.8924923001,,Solar
+85 Solar,85,0.0,Generator 85 Solar,156.277964167,,Solar
+88 Solar,88,0.0,Generator 88 Solar,8.1510919734,,Solar
+89 Solar,89,0.0,Generator 89 Solar,1.79196759744,,Solar
+90 Solar,90,0.0,Generator 90 Solar,81.2499299671,,Solar
+91 Solar,91,0.0,Generator 91 Solar,3.68518233687,,Solar
+92 Solar,92,0.0,Generator 92 Solar,61.3154903889,,Solar
+93 Solar,93,0.0,Generator 93 Solar,191.635296053,,Solar
+97 Solar,97,0.0,Generator 97 Solar,59.4243426049,,Solar
+98 Solar,98,0.0,Generator 98 Solar,48.5382676619,,Solar
+101 Solar,101,0.0,Generator 101 Solar,119.077524519,,Solar
+102 Solar,102,0.0,Generator 102 Solar,142.844699621,,Solar
+103 Solar,103,0.0,Generator 103 Solar,9.84236066,,Solar
+108 Solar,108,0.0,Generator 108 Solar,7.18318255245,,Solar
+109 Solar,109,0.0,Generator 109 Solar,9.5608896996,,Solar
+110 Solar,110,0.0,Generator 110 Solar,54.7900098014,,Solar
+111 Solar,111,0.0,Generator 111 Solar,138.730049031,,Solar
+112 Solar,112,0.0,Generator 112 Solar,2.85898664312,,Solar
+113 Solar,113,0.0,Generator 113 Solar,4.79549373064,,Solar
+114 Solar,114,0.0,Generator 114 Solar,86.7035713777,,Solar
+115 Solar,115,0.0,Generator 115 Solar,25.3565007917,,Solar
+116 Solar,116,0.0,Generator 116 Solar,7.64365313712,,Solar
+118 Solar,118,0.0,Generator 118 Solar,45.6581688249,,Solar
+119 Solar,119,0.0,Generator 119 Solar,26.209248478,,Solar
+121 Solar,121,0.0,Generator 121 Solar,16.3630315106,,Solar
+122 Solar,122,0.0,Generator 122 Solar,43.4771775464,,Solar
+126 Solar,126,0.0,Generator 126 Solar,42.0249070995,,Solar
+127 Solar,127,0.0,Generator 127 Solar,19.3952363453,,Solar
+130 Solar,130,0.0,Generator 130 Solar,19.4912494116,,Solar
+131 Solar,131,0.0,Generator 131 Solar,6.05227179856,,Solar
+132 Solar,132,0.0,Generator 132 Solar,18.5716563093,,Solar
+133 Solar,133,0.0,Generator 133 Solar,6.42055374372,,Solar
+134 Solar,134,0.0,Generator 134 Solar,10.8112029419,,Solar
+135 Solar,135,0.0,Generator 135 Solar,27.9762174524,,Solar
+136 Solar,136,0.0,Generator 136 Solar,28.1838273805,,Solar
+137 Solar,137,0.0,Generator 137 Solar,193.234776211,,Solar
+139 Solar,139,0.0,Generator 139 Solar,6.86558614609,,Solar
+140 Solar,140,0.0,Generator 140 Solar,10.6310697811,,Solar
+141 Solar,141,0.0,Generator 141 Solar,4.92036804098,,Solar
+142 Solar,142,0.0,Generator 142 Solar,6.68963671768,,Solar
+144 Solar,144,0.0,Generator 144 Solar,1.91202440048,,Solar
+145 Solar,145,0.0,Generator 145 Solar,8.05638783349,,Solar
+146 Solar,146,0.0,Generator 146 Solar,5.69359712972,,Solar
+147 Solar,147,0.0,Generator 147 Solar,20.7171111431,,Solar
+148 Solar,148,0.0,Generator 148 Solar,8.93845403313,,Solar
+149 Solar,149,0.0,Generator 149 Solar,65.1824653363,,Solar
+150 Solar,150,0.0,Generator 150 Solar,11.8788620772,,Solar
+151 Solar,151,0.0,Generator 151 Solar,10.1964958266,,Solar
+152 Solar,152,0.0,Generator 152 Solar,66.6139926948,,Solar
+153 Solar,153,0.0,Generator 153 Solar,121.671046677,,Solar
+154 Solar,154,0.0,Generator 154 Solar,12.4525836658,,Solar
+155 Solar,155,0.0,Generator 155 Solar,32.4862488557,,Solar
+158 Solar,158,0.0,Generator 158 Solar,25.8748930976,,Solar
+161 Solar,161,0.0,Generator 161 Solar,67.4333290023,,Solar
+162 Solar,162,0.0,Generator 162 Solar,9.64304372622,,Solar
+163 Solar,163,0.0,Generator 163 Solar,19.1661348612,,Solar
+164 Solar,164,0.0,Generator 164 Solar,25.1814057028,,Solar
+166 Solar,166,0.0,Generator 166 Solar,29.114828087,,Solar
+167 Solar,167,0.0,Generator 167 Solar,12.1621880467,,Solar
+168 Solar,168,0.0,Generator 168 Solar,29.1835928188,,Solar
+169 Solar,169,0.0,Generator 169 Solar,2.23765189247,,Solar
+170 Solar,170,0.0,Generator 170 Solar,5.02370478794,,Solar
+171 Solar,171,0.0,Generator 171 Solar,11.7306227274,,Solar
+172 Solar,172,0.0,Generator 172 Solar,3.41768401337,,Solar
+173 Solar,173,0.0,Generator 173 Solar,11.7659600244,,Solar
+174 Solar,174,0.0,Generator 174 Solar,11.1448823949,,Solar
+175 Solar,175,0.0,Generator 175 Solar,3.73270979541,,Solar
+176 Solar,176,0.0,Generator 176 Solar,17.4348273992,,Solar
+177 Solar,177,0.0,Generator 177 Solar,109.345623408,,Solar
+178 Solar,178,0.0,Generator 178 Solar,23.4815557252,,Solar
+179 Solar,179,0.0,Generator 179 Solar,176.928964154,,Solar
+180 Solar,180,0.0,Generator 180 Solar,161.276649117,,Solar
+181 Solar,181,0.0,Generator 181 Solar,84.0705616914,,Solar
+182 Solar,182,0.0,Generator 182 Solar,18.431240768,,Solar
+183 Solar,183,0.0,Generator 183 Solar,47.5302099481,,Solar
+185 Solar,185,0.0,Generator 185 Solar,10.7907104783,,Solar
+186 Solar,186,0.0,Generator 186 Solar,2.68010525828,,Solar
+187 Solar,187,0.0,Generator 187 Solar,5.63130043544,,Solar
+188 Solar,188,0.0,Generator 188 Solar,1.87938058935,,Solar
+189 Solar,189,0.0,Generator 189 Solar,91.7766704254,,Solar
+190 Solar,190,0.0,Generator 190 Solar,186.94217135,,Solar
+192 Solar,192,0.0,Generator 192 Solar,138.604086709,,Solar
+193 Solar,193,0.0,Generator 193 Solar,3.04032494127,,Solar
+194 Solar,194,0.0,Generator 194 Solar,1.60064915912,,Solar
+196 Solar,196,0.0,Generator 196 Solar,1.57820666119,,Solar
+197 Solar,197,0.0,Generator 197 Solar,48.6597169142,,Solar
+198 Solar,198,0.0,Generator 198 Solar,2.87787743383,,Solar
+199 Solar,199,0.0,Generator 199 Solar,5.22728175119,,Solar
+200 Solar,200,0.0,Generator 200 Solar,3.92704342258,,Solar
+202 Solar,202,0.0,Generator 202 Solar,72.6779347262,,Solar
+203 Solar,203,0.0,Generator 203 Solar,111.043024571,,Solar
+204 Solar,204,0.0,Generator 204 Solar,62.4049705273,,Solar
+205 Solar,205,0.0,Generator 205 Solar,10.5799252948,,Solar
+206 Solar,206,0.0,Generator 206 Solar,4.09103357811,,Solar
+207 Solar,207,0.0,Generator 207 Solar,47.970380957,,Solar
+208 Solar,208,0.0,Generator 208 Solar,31.23366266,,Solar
+209 Solar,209,0.0,Generator 209 Solar,83.1733681904,,Solar
+210 Solar,210,0.0,Generator 210 Solar,13.8872934732,,Solar
+211 Solar,211,0.0,Generator 211 Solar,226.804107757,,Solar
+212 Solar,212,0.0,Generator 212 Solar,71.3804125043,,Solar
+213 Solar,213,0.0,Generator 213 Solar,52.1481022426,,Solar
+214 Solar,214,0.0,Generator 214 Solar,17.3006198894,,Solar
+215 Solar,215,0.0,Generator 215 Solar,39.8924684097,,Solar
+216 Solar,216,0.0,Generator 216 Solar,9.18976482456,,Solar
+217 Solar,217,0.0,Generator 217 Solar,40.5756460295,,Solar
+218 Solar,218,0.0,Generator 218 Solar,74.9224344102,,Solar
+219 Solar,219,0.0,Generator 219 Solar,81.0354832754,,Solar
+221 Solar,221,0.0,Generator 221 Solar,112.018080105,,Solar
+222 Solar,222,0.0,Generator 222 Solar,18.1587294633,,Solar
+223 Solar,223,0.0,Generator 223 Solar,116.696893662,,Solar
+224 Solar,224,0.0,Generator 224 Solar,116.477465463,,Solar
+225 Solar,225,0.0,Generator 225 Solar,228.386530018,,Solar
+226 Solar,226,0.0,Generator 226 Solar,26.5015733691,,Solar
+227 Solar,227,0.0,Generator 227 Solar,86.2365746488,,Solar
+228 Solar,228,0.0,Generator 228 Solar,53.6568323407,,Solar
+229 Solar,229,0.0,Generator 229 Solar,23.1327737351,,Solar
+230 Solar,230,0.0,Generator 230 Solar,53.342089814,,Solar
+234 Solar,234,0.0,Generator 234 Solar,136.821485252,,Solar
+235 Solar,235,0.0,Generator 235 Solar,25.6063102247,,Solar
+237 Solar,237,0.0,Generator 237 Solar,5.35610593423,,Solar
+238 Solar,238,0.0,Generator 238 Solar,55.8258151624,,Solar
+239 Solar,239,0.0,Generator 239 Solar,37.2971956496,,Solar
+240 Solar,240,0.0,Generator 240 Solar,25.1498061516,,Solar
+241 Solar,241,0.0,Generator 241 Solar,48.5877681047,,Solar
+242 Solar,242,0.0,Generator 242 Solar,127.647586328,,Solar
+245 Solar,245,0.0,Generator 245 Solar,52.0517875922,,Solar
+246 Solar,246,0.0,Generator 246 Solar,6.76177981575,,Solar
+249 Solar,249,0.0,Generator 249 Solar,11.7078004149,,Solar
+253 Solar,253,0.0,Generator 253 Solar,26.2886918355,,Solar
+254 Solar,254,0.0,Generator 254 Solar,226.257418351,,Solar
+255 Solar,255,0.0,Generator 255 Solar,183.631946845,,Solar
+256 Solar,256,0.0,Generator 256 Solar,7.21385449034,,Solar
+257 Solar,257,0.0,Generator 257 Solar,75.6388526054,,Solar
+258 Solar,258,0.0,Generator 258 Solar,90.7750732185,,Solar
+259 Solar,259,0.0,Generator 259 Solar,42.3125380802,,Solar
+260 Solar,260,0.0,Generator 260 Solar,155.279397297,,Solar
+262 Solar,262,0.0,Generator 262 Solar,156.979011577,,Solar
+265 Solar,265,0.0,Generator 265 Solar,82.9282512593,,Solar
+266 Solar,266,0.0,Generator 266 Solar,301.614349192,,Solar
+268 Solar,268,0.0,Generator 268 Solar,19.4889665285,,Solar
+269 Solar,269,0.0,Generator 269 Solar,54.0671688866,,Solar
+270 Solar,270,0.0,Generator 270 Solar,82.1519469094,,Solar
+271 Solar,271,0.0,Generator 271 Solar,21.3295659833,,Solar
+273 Solar,273,0.0,Generator 273 Solar,2.85527347592,,Solar
+274 Solar,274,0.0,Generator 274 Solar,36.2687832585,,Solar
+275 Solar,275,0.0,Generator 275 Solar,55.7508443105,,Solar
+276 Solar,276,0.0,Generator 276 Solar,84.3085014161,,Solar
+277 Solar,277,0.0,Generator 277 Solar,0.456443333038,,Solar
+278 Solar,278,0.0,Generator 278 Solar,65.2833137834,,Solar
+280 Solar,280,0.0,Generator 280 Solar,220.758669251,,Solar
+283 Solar,283,0.0,Generator 283 Solar,51.3671639748,,Solar
+284 Solar,284,0.0,Generator 284 Solar,151.902129991,,Solar
+285 Solar,285,0.0,Generator 285 Solar,383.858473404,,Solar
+286 Solar,286,0.0,Generator 286 Solar,60.6556523832,,Solar
+287 Solar,287,0.0,Generator 287 Solar,77.3752768096,,Solar
+288 Solar,288,0.0,Generator 288 Solar,153.887449491,,Solar
+289 Solar,289,0.0,Generator 289 Solar,89.4394256267,,Solar
+290 Solar,290,0.0,Generator 290 Solar,194.473407228,,Solar
+291 Solar,291,0.0,Generator 291 Solar,116.049525596,,Solar
+293 Solar,293,0.0,Generator 293 Solar,33.5259472314,,Solar
+294 Solar,294,0.0,Generator 294 Solar,66.6389544354,,Solar
+295 Solar,295,0.0,Generator 295 Solar,35.869318087,,Solar
+296 Solar,296,0.0,Generator 296 Solar,25.6191621951,,Solar
+297 Solar,297,0.0,Generator 297 Solar,0.986841253211,,Solar
+298 Solar,298,0.0,Generator 298 Solar,3.77532544167,,Solar
+299 Solar,299,0.0,Generator 299 Solar,31.2155911865,,Solar
+300 Solar,300,0.0,Generator 300 Solar,172.123236393,,Solar
+301 Solar,301,0.0,Generator 301 Solar,25.9637060018,,Solar
+302 Solar,302,0.0,Generator 302 Solar,67.2193133171,,Solar
+304 Solar,304,0.0,Generator 304 Solar,218.703564343,,Solar
+305 Solar,305,0.0,Generator 305 Solar,22.1918482816,,Solar
+306 Solar,306,0.0,Generator 306 Solar,18.4162831018,,Solar
+309 Solar,309,0.0,Generator 309 Solar,136.190504425,,Solar
+310 Solar,310,0.0,Generator 310 Solar,79.2700055257,,Solar
+311 Solar,311,0.0,Generator 311 Solar,408.37422005,,Solar
+313 Solar,313,0.0,Generator 313 Solar,46.2770010595,,Solar
+314 Solar,314,0.0,Generator 314 Solar,93.8077865618,,Solar
+316 Solar,316,0.0,Generator 316 Solar,197.087429677,,Solar
+318 Solar,318,0.0,Generator 318 Solar,311.473266956,,Solar
+319 Solar,319,0.0,Generator 319 Solar,156.546089273,,Solar
+320 Solar,320,0.0,Generator 320 Solar,114.687410687,,Solar
+321 Solar,321,0.0,Generator 321 Solar,48.4439464501,,Solar
+323 Solar,323,0.0,Generator 323 Solar,107.077621671,,Solar
+324 Solar,324,0.0,Generator 324 Solar,90.1366736759,,Solar
+325 Solar,325,0.0,Generator 325 Solar,21.9947694651,,Solar
+326 Solar,326,0.0,Generator 326 Solar,112.249862957,,Solar
+327 Solar,327,0.0,Generator 327 Solar,99.8112078997,,Solar
+328 Solar,328,0.0,Generator 328 Solar,95.5908999584,,Solar
+329 Solar,329,0.0,Generator 329 Solar,159.818571632,,Solar
+330 Solar,330,0.0,Generator 330 Solar,235.581664439,,Solar
+331 Solar,331,0.0,Generator 331 Solar,479.248155829,,Solar
+333 Solar,333,0.0,Generator 333 Solar,276.640075051,,Solar
+335 Solar,335,0.0,Generator 335 Solar,272.215344887,,Solar
+337 Solar,337,0.0,Generator 337 Solar,533.823158688,,Solar
+339 Solar,339,0.0,Generator 339 Solar,88.5771395366,,Solar
+340 Solar,340,0.0,Generator 340 Solar,197.787397172,,Solar
+341 Solar,341,0.0,Generator 341 Solar,111.203655583,,Solar
+342 Solar,342,0.0,Generator 342 Solar,199.45798322,,Solar
+343 Solar,343,0.0,Generator 343 Solar,80.0706265568,,Solar
+344 Solar,344,0.0,Generator 344 Solar,78.4850441808,,Solar
+345 Solar,345,0.0,Generator 345 Solar,97.8729744075,,Solar
+346 Solar,346,0.0,Generator 346 Solar,7.06706321303,,Solar
+347 Solar,347,0.0,Generator 347 Solar,9.94901011501,,Solar
+348 Solar,348,0.0,Generator 348 Solar,10.7390924222,,Solar
+349 Solar,349,0.0,Generator 349 Solar,240.920274276,,Solar
+350 Solar,350,0.0,Generator 350 Solar,275.412619907,,Solar
+352 Solar,352,0.0,Generator 352 Solar,195.868212622,,Solar
+354 Solar,354,0.0,Generator 354 Solar,123.060645601,,Solar
+355 Solar,355,0.0,Generator 355 Solar,9.48628233579,,Solar
+356 Solar,356,0.0,Generator 356 Solar,24.0580395312,,Solar
+357 Solar,357,0.0,Generator 357 Solar,1.41216689344,,Solar
+358 Solar,358,0.0,Generator 358 Solar,1.17103382504,,Solar
+359 Solar,359,0.0,Generator 359 Solar,8.91430562005,,Solar
+361 Solar,361,0.0,Generator 361 Solar,41.7228166946,,Solar
+363 Solar,363,0.0,Generator 363 Solar,6.61764092982,,Solar
+364 Solar,364,0.0,Generator 364 Solar,3.33585971783,,Solar
+365 Solar,365,0.0,Generator 365 Solar,10.4345225167,,Solar
+366 Solar,366,0.0,Generator 366 Solar,63.4117651656,,Solar
+367 Solar,367,0.0,Generator 367 Solar,14.8357577621,,Solar
+368 Solar,368,0.0,Generator 368 Solar,51.1022503929,,Solar
+369 Solar,369,0.0,Generator 369 Solar,79.2867662718,,Solar
+370 Solar,370,0.0,Generator 370 Solar,21.0067488094,,Solar
+371 Solar,371,0.0,Generator 371 Solar,11.3051921841,,Solar
+372 Solar,372,0.0,Generator 372 Solar,15.1825713303,,Solar
+373 Solar,373,0.0,Generator 373 Solar,399.133201245,,Solar
+374 Solar,374,0.0,Generator 374 Solar,23.2049103442,,Solar
+375 Solar,375,0.0,Generator 375 Solar,21.4693567656,,Solar
+376 Solar,376,0.0,Generator 376 Solar,28.1564825237,,Solar
+377 Solar,377,0.0,Generator 377 Solar,118.262711802,,Solar
+378 Solar,378,0.0,Generator 378 Solar,33.0312281458,,Solar
+379 Solar,379,0.0,Generator 379 Solar,74.1394082622,,Solar
+380 Solar,380,0.0,Generator 380 Solar,53.4082985092,,Solar
+381 Solar,381,0.0,Generator 381 Solar,47.3452596402,,Solar
+383 Solar,383,0.0,Generator 383 Solar,180.894957129,,Solar
+386 Solar,386,0.0,Generator 386 Solar,62.5726417247,,Solar
+387 Solar,387,0.0,Generator 387 Solar,61.9531425507,,Solar
+388 Solar,388,0.0,Generator 388 Solar,30.4451691568,,Solar
+389 Solar,389,0.0,Generator 389 Solar,280.614896696,,Solar
+390 Solar,390,0.0,Generator 390 Solar,173.515675268,,Solar
+392 Solar,392,0.0,Generator 392 Solar,1.5383477261,,Solar
+393 Solar,393,0.0,Generator 393 Solar,79.7135796057,,Solar
+394 Solar,394,0.0,Generator 394 Solar,196.679379837,,Solar
+395 Solar,395,0.0,Generator 395 Solar,170.831583767,,Solar
+396 Solar,396,0.0,Generator 396 Solar,131.456153348,,Solar
+397 Solar,397,0.0,Generator 397 Solar,56.5650540612,,Solar
+398 Solar,398,0.0,Generator 398 Solar,81.5919504805,,Solar
+399 Solar,399,0.0,Generator 399 Solar,74.1012522785,,Solar
+400 Solar,400,0.0,Generator 400 Solar,30.3035516899,,Solar
+401 Solar,401,0.0,Generator 401 Solar,43.2989213414,,Solar
+402 Solar,402,0.0,Generator 402 Solar,69.2632549986,,Solar
+405 Solar,405,0.0,Generator 405 Solar,27.7247677283,,Solar
+406 Solar,406,0.0,Generator 406 Solar,69.8900097171,,Solar
+409 Solar,409,0.0,Generator 409 Solar,26.5606245666,,Solar
+410 Solar,410,0.0,Generator 410 Solar,81.3619621142,,Solar
+411 Solar,411,0.0,Generator 411 Solar,102.529569026,,Solar
+412 Solar,412,0.0,Generator 412 Solar,109.809789706,,Solar
+414 Solar,414,0.0,Generator 414 Solar,6.41796892856,,Solar
+415 Solar,415,0.0,Generator 415 Solar,12.6293305345,,Solar
+416 Solar,416,0.0,Generator 416 Solar,25.5809127568,,Solar
+417 Solar,417,0.0,Generator 417 Solar,183.749132895,,Solar
+418 Solar,418,0.0,Generator 418 Solar,132.975197331,,Solar
+422 Solar,422,0.0,Generator 422 Solar,22.9826318392,,Solar
+423 Solar,423,0.0,Generator 423 Solar,7.46863292826,,Solar
+424 Solar,424,0.0,Generator 424 Solar,19.2646857571,,Solar
+425 Solar,425,0.0,Generator 425 Solar,32.3842943932,,Solar
+426 Solar,426,0.0,Generator 426 Solar,31.4360021066,,Solar
+427 Solar,427,0.0,Generator 427 Solar,3.74984023399,,Solar
+428 Solar,428,0.0,Generator 428 Solar,120.215573965,,Solar
+429 Solar,429,0.0,Generator 429 Solar,9.51469636955,,Solar
+430 Solar,430,0.0,Generator 430 Solar,37.6190969078,,Solar
+431 Solar,431,0.0,Generator 431 Solar,48.5405800132,,Solar
+432 Solar,432,0.0,Generator 432 Solar,7.95644447902,,Solar
+433 Solar,433,0.0,Generator 433 Solar,37.6069157472,,Solar
+434 Solar,434,0.0,Generator 434 Solar,30.1167105203,,Solar
+435 Solar,435,0.0,Generator 435 Solar,2.24116723731,,Solar
+436 Solar,436,0.0,Generator 436 Solar,121.687485113,,Solar
+437 Solar,437,0.0,Generator 437 Solar,63.6543584058,,Solar
+438 Solar,438,0.0,Generator 438 Solar,41.2295969441,,Solar
+439 Solar,439,0.0,Generator 439 Solar,27.3744152868,,Solar
+440 Solar,440,0.0,Generator 440 Solar,25.3943741814,,Solar
+441 Solar,441,0.0,Generator 441 Solar,84.1636035878,,Solar
+442 Solar,442,0.0,Generator 442 Solar,26.86114381,,Solar
+443 Solar,443,0.0,Generator 443 Solar,32.5128258133,,Solar
+444 Solar,444,0.0,Generator 444 Solar,30.0637291945,,Solar
+445 Solar,445,0.0,Generator 445 Solar,138.236316083,,Solar
+446 Solar,446,0.0,Generator 446 Solar,68.0977716531,,Solar
+447 Solar,447,0.0,Generator 447 Solar,98.2891409367,,Solar
+448 Solar,448,0.0,Generator 448 Solar,2.04128815414,,Solar
+449 Solar,449,0.0,Generator 449 Solar,6.45337371893,,Solar
+451 Solar,451,0.0,Generator 451 Solar,2.75944832878,,Solar
+452 Solar,452,0.0,Generator 452 Solar,54.5646653518,,Solar
+453 Solar,453,0.0,Generator 453 Solar,52.6484439662,,Solar
+454 Solar,454,0.0,Generator 454 Solar,1.68385355098,,Solar
+455 Solar,455,0.0,Generator 455 Solar,9.02528346733,,Solar
+456 Solar,456,0.0,Generator 456 Solar,3.55441515269,,Solar
+457 Solar,457,0.0,Generator 457 Solar,7.83757575517,,Solar
+459 Solar,459,0.0,Generator 459 Solar,4.93667191188,,Solar
+460 Solar,460,0.0,Generator 460 Solar,1.13571664617,,Solar
+461 Solar,461,0.0,Generator 461 Solar,8.37432949145,,Solar
+462 Solar,462,0.0,Generator 462 Solar,1.75288097417,,Solar
+463 Solar,463,0.0,Generator 463 Solar,38.4674700625,,Solar
+464 Solar,464,0.0,Generator 464 Solar,4.53579937256,,Solar
+465 Solar,465,0.0,Generator 465 Solar,5.12064063763,,Solar
+466 Solar,466,0.0,Generator 466 Solar,6.94095668978,,Solar
+467 Solar,467,0.0,Generator 467 Solar,5.86546800139,,Solar
+468 Solar,468,0.0,Generator 468 Solar,47.5101752353,,Solar
+469 Solar,469,0.0,Generator 469 Solar,5.25539819324,,Solar
+470 Solar,470,0.0,Generator 470 Solar,16.9376711255,,Solar
+471 Solar,471,0.0,Generator 471 Solar,4.14121117669,,Solar
+472 Solar,472,0.0,Generator 472 Solar,91.3351836439,,Solar
+473 Solar,473,0.0,Generator 473 Solar,24.8426974,,Solar
+474 Solar,474,0.0,Generator 474 Solar,30.8363184682,,Solar
+475 Solar,475,0.0,Generator 475 Solar,38.1469896962,,Solar
+476 Solar,476,0.0,Generator 476 Solar,46.5682001194,,Solar
+477 Solar,477,0.0,Generator 477 Solar,31.3475721608,,Solar
+478 Solar,478,0.0,Generator 478 Solar,0.14062786392,,Solar
+479 Solar,479,0.0,Generator 479 Solar,45.2572344968,,Solar
+480 Solar,480,0.0,Generator 480 Solar,14.824594689,,Solar
+481 Solar,481,0.0,Generator 481 Solar,18.2704986262,,Solar
+482 Solar,482,0.0,Generator 482 Solar,12.0004959782,,Solar
+483 Solar,483,0.0,Generator 483 Solar,78.1145093775,,Solar
+484 Solar,484,0.0,Generator 484 Solar,133.539659181,,Solar
+485 Solar,485,0.0,Generator 485 Solar,281.819662447,,Solar
+486 Solar,486,0.0,Generator 486 Solar,135.492385271,,Solar
+487 Solar,487,0.0,Generator 487 Solar,79.1844275783,,Solar
+488 Solar,488,0.0,Generator 488 Solar,9.16060720929,,Solar
+489 Solar,489,0.0,Generator 489 Solar,72.3565226403,,Solar
+490 Solar,490,0.0,Generator 490 Solar,28.8936368193,,Solar
+491 Solar,491,0.0,Generator 491 Solar,50.4778661943,,Solar
+492 Solar,492,0.0,Generator 492 Solar,32.8746763897,,Solar
+493 Solar,493,0.0,Generator 493 Solar,20.2594855058,,Solar
+494 Solar,494,0.0,Generator 494 Solar,8.18979902657,,Solar
+495 Solar,495,0.0,Generator 495 Solar,101.236915064,,Solar
+2_220kV Solar,2_220kV,0.0,Generator 2_220kV Solar,6.78252247482,,Solar
+5_220kV Solar,5_220kV,0.0,Generator 5_220kV Solar,15.9445613219,,Solar
+10_220kV Solar,10_220kV,0.0,Generator 10_220kV Solar,159.570248092,,Solar
+12_220kV Solar,12_220kV,0.0,Generator 12_220kV Solar,277.793547711,,Solar
+13_220kV Solar,13_220kV,0.0,Generator 13_220kV Solar,186.387377279,,Solar
+15_220kV Solar,15_220kV,0.0,Generator 15_220kV Solar,120.486097306,,Solar
+18_220kV Solar,18_220kV,0.0,Generator 18_220kV Solar,61.1612999846,,Solar
+20_220kV Solar,20_220kV,0.0,Generator 20_220kV Solar,9.95471989703,,Solar
+22_220kV Solar,22_220kV,0.0,Generator 22_220kV Solar,230.400934825,,Solar
+24_220kV Solar,24_220kV,0.0,Generator 24_220kV Solar,66.1161367928,,Solar
+26_220kV Solar,26_220kV,0.0,Generator 26_220kV Solar,21.8361627105,,Solar
+30_220kV Solar,30_220kV,0.0,Generator 30_220kV Solar,36.5183261461,,Solar
+32_220kV Solar,32_220kV,0.0,Generator 32_220kV Solar,135.324360757,,Solar
+37_220kV Solar,37_220kV,0.0,Generator 37_220kV Solar,96.6101777695,,Solar
+42_220kV Solar,42_220kV,0.0,Generator 42_220kV Solar,65.6688094022,,Solar
+46_220kV Solar,46_220kV,0.0,Generator 46_220kV Solar,1.50988418606,,Solar
+52_220kV Solar,52_220kV,0.0,Generator 52_220kV Solar,4.80483205253,,Solar
+56_220kV Solar,56_220kV,0.0,Generator 56_220kV Solar,11.0049726358,,Solar
+61_220kV Solar,61_220kV,0.0,Generator 61_220kV Solar,38.0755601028,,Solar
+68_220kV Solar,68_220kV,0.0,Generator 68_220kV Solar,46.7223785366,,Solar
+69_220kV Solar,69_220kV,0.0,Generator 69_220kV Solar,44.2391882093,,Solar
+74_220kV Solar,74_220kV,0.0,Generator 74_220kV Solar,383.418198179,,Solar
+78_220kV Solar,78_220kV,0.0,Generator 78_220kV Solar,62.3356431164,,Solar
+86_220kV Solar,86_220kV,0.0,Generator 86_220kV Solar,6.00797041814,,Solar
+87_220kV Solar,87_220kV,0.0,Generator 87_220kV Solar,134.60573289,,Solar
+94_220kV Solar,94_220kV,0.0,Generator 94_220kV Solar,89.4256193232,,Solar
+95_220kV Solar,95_220kV,0.0,Generator 95_220kV Solar,103.003683059,,Solar
+96_220kV Solar,96_220kV,0.0,Generator 96_220kV Solar,18.9808285849,,Solar
+99_220kV Solar,99_220kV,0.0,Generator 99_220kV Solar,104.495096936,,Solar
+100_220kV Solar,100_220kV,0.0,Generator 100_220kV Solar,70.7548700462,,Solar
+104_220kV Solar,104_220kV,0.0,Generator 104_220kV Solar,3.65255829765,,Solar
+105_220kV Solar,105_220kV,0.0,Generator 105_220kV Solar,93.133764568,,Solar
+106_220kV Solar,106_220kV,0.0,Generator 106_220kV Solar,10.6514426275,,Solar
+107_220kV Solar,107_220kV,0.0,Generator 107_220kV Solar,1.30943921024,,Solar
+117_220kV Solar,117_220kV,0.0,Generator 117_220kV Solar,17.9962458899,,Solar
+120_220kV Solar,120_220kV,0.0,Generator 120_220kV Solar,83.0754127741,,Solar
+123_220kV Solar,123_220kV,0.0,Generator 123_220kV Solar,10.1932288932,,Solar
+124_220kV Solar,124_220kV,0.0,Generator 124_220kV Solar,0.866492729284,,Solar
+125_220kV Solar,125_220kV,0.0,Generator 125_220kV Solar,7.9175966632,,Solar
+128_220kV Solar,128_220kV,0.0,Generator 128_220kV Solar,67.7239512483,,Solar
+129_220kV Solar,129_220kV,0.0,Generator 129_220kV Solar,8.92855603065,,Solar
+138_220kV Solar,138_220kV,0.0,Generator 138_220kV Solar,12.7268921642,,Solar
+143_220kV Solar,143_220kV,0.0,Generator 143_220kV Solar,6.62525480382,,Solar
+156_220kV Solar,156_220kV,0.0,Generator 156_220kV Solar,38.7248883709,,Solar
+157_220kV Solar,157_220kV,0.0,Generator 157_220kV Solar,131.682322011,,Solar
+159_220kV Solar,159_220kV,0.0,Generator 159_220kV Solar,59.7917587743,,Solar
+160_220kV Solar,160_220kV,0.0,Generator 160_220kV Solar,35.9869279893,,Solar
+165_220kV Solar,165_220kV,0.0,Generator 165_220kV Solar,13.5798950324,,Solar
+184_220kV Solar,184_220kV,0.0,Generator 184_220kV Solar,17.8414810649,,Solar
+191_220kV Solar,191_220kV,0.0,Generator 191_220kV Solar,3.15017898174,,Solar
+195_220kV Solar,195_220kV,0.0,Generator 195_220kV Solar,0.731379679998,,Solar
+201_220kV Solar,201_220kV,0.0,Generator 201_220kV Solar,66.5941206082,,Solar
+220_220kV Solar,220_220kV,0.0,Generator 220_220kV Solar,18.7854907646,,Solar
+231_220kV Solar,231_220kV,0.0,Generator 231_220kV Solar,2.67419933099,,Solar
+232_220kV Solar,232_220kV,0.0,Generator 232_220kV Solar,99.0742349063,,Solar
+233_220kV Solar,233_220kV,0.0,Generator 233_220kV Solar,201.733891319,,Solar
+236_220kV Solar,236_220kV,0.0,Generator 236_220kV Solar,15.0481177122,,Solar
+247_220kV Solar,247_220kV,0.0,Generator 247_220kV Solar,236.871780957,,Solar
+248_220kV Solar,248_220kV,0.0,Generator 248_220kV Solar,14.4044085501,,Solar
+250_220kV Solar,250_220kV,0.0,Generator 250_220kV Solar,0.0283784055798,,Solar
+251_220kV Solar,251_220kV,0.0,Generator 251_220kV Solar,0.534696196047,,Solar
+252_220kV Solar,252_220kV,0.0,Generator 252_220kV Solar,2.75090688335,,Solar
+261_220kV Solar,261_220kV,0.0,Generator 261_220kV Solar,81.9291796662,,Solar
+263_220kV Solar,263_220kV,0.0,Generator 263_220kV Solar,2.17499037282,,Solar
+264_220kV Solar,264_220kV,0.0,Generator 264_220kV Solar,226.383636562,,Solar
+267_220kV Solar,267_220kV,0.0,Generator 267_220kV Solar,1.33159165748,,Solar
+272_220kV Solar,272_220kV,0.0,Generator 272_220kV Solar,189.722791697,,Solar
+279_220kV Solar,279_220kV,0.0,Generator 279_220kV Solar,100.619409992,,Solar
+281_220kV Solar,281_220kV,0.0,Generator 281_220kV Solar,144.682716774,,Solar
+282_220kV Solar,282_220kV,0.0,Generator 282_220kV Solar,134.937779598,,Solar
+292_220kV Solar,292_220kV,0.0,Generator 292_220kV Solar,155.990147453,,Solar
+303_220kV Solar,303_220kV,0.0,Generator 303_220kV Solar,94.4706110276,,Solar
+307_220kV Solar,307_220kV,0.0,Generator 307_220kV Solar,41.9758348816,,Solar
+308_220kV Solar,308_220kV,0.0,Generator 308_220kV Solar,298.346979291,,Solar
+312_220kV Solar,312_220kV,0.0,Generator 312_220kV Solar,393.914066526,,Solar
+315_220kV Solar,315_220kV,0.0,Generator 315_220kV Solar,251.944938615,,Solar
+317_220kV Solar,317_220kV,0.0,Generator 317_220kV Solar,10.3782881081,,Solar
+322_220kV Solar,322_220kV,0.0,Generator 322_220kV Solar,50.3514256534,,Solar
+332_220kV Solar,332_220kV,0.0,Generator 332_220kV Solar,849.576943945,,Solar
+334_220kV Solar,334_220kV,0.0,Generator 334_220kV Solar,233.477991242,,Solar
+336_220kV Solar,336_220kV,0.0,Generator 336_220kV Solar,242.698642978,,Solar
+338_220kV Solar,338_220kV,0.0,Generator 338_220kV Solar,255.834575646,,Solar
+351_220kV Solar,351_220kV,0.0,Generator 351_220kV Solar,262.446697862,,Solar
+353_220kV Solar,353_220kV,0.0,Generator 353_220kV Solar,91.306831625,,Solar
+360_220kV Solar,360_220kV,0.0,Generator 360_220kV Solar,26.5925612809,,Solar
+362_220kV Solar,362_220kV,0.0,Generator 362_220kV Solar,12.1265109683,,Solar
+382_220kV Solar,382_220kV,0.0,Generator 382_220kV Solar,199.184531465,,Solar
+384_220kV Solar,384_220kV,0.0,Generator 384_220kV Solar,579.835050797,,Solar
+385_220kV Solar,385_220kV,0.0,Generator 385_220kV Solar,122.315702959,,Solar
+391_220kV Solar,391_220kV,0.0,Generator 391_220kV Solar,30.6064358953,,Solar
+403_220kV Solar,403_220kV,0.0,Generator 403_220kV Solar,23.6450711466,,Solar
+404_220kV Solar,404_220kV,0.0,Generator 404_220kV Solar,17.7333803642,,Solar
+413_220kV Solar,413_220kV,0.0,Generator 413_220kV Solar,72.0714562574,,Solar
+421_220kV Solar,421_220kV,0.0,Generator 421_220kV Solar,59.6608875033,,Solar
+450_220kV Solar,450_220kV,0.0,Generator 450_220kV Solar,1.68150652412,,Solar
+458_220kV Solar,458_220kV,0.0,Generator 458_220kV Solar,0.116706305643,,Solar
