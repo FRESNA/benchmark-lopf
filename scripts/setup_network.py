@@ -40,6 +40,10 @@ def load_case(case, overwrite_zero_s_nom=1e3):
     network.name = "MATPOWER {}".format(case)
     pypsa.io.import_from_pypower_ppc(network, ppc,
                                      overwrite_zero_s_nom=overwrite_zero_s_nom)
+    network.buses.drop('type', axis=1, errors='ignore', inplace=True)
+    network.lines.drop('type', axis=1, errors='ignore', inplace=True)
+    network.transformers.drop('type', axis=1, errors='ignore', inplace=True)
+
     return network
 
 
@@ -156,6 +160,7 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.WARNING)
     meta = dict(snakemake.wildcards.items())
     meta['nhours'] = int(meta['nhours'])
+    meta['overwrite_zero_s_nom'] = snakemake.params.overwrite_zero_s_nom
 
     network = load_network(meta)
     network.export_to_csv_folder(snakemake.output[0])

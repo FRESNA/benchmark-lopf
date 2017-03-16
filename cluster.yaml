@@ -6,5 +6,5 @@ write_lp:
   cpus: 1
   partition: x-men
 solve_lp:
-  cpus: 4
+  cpus: 5
   partition: vres

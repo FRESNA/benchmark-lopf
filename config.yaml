@@ -2,10 +2,10 @@ formulations:
   no-ptdf: [angles, cycles, kirchhoff, angles-flows, cycles-flows]
   ptdf: [ptdf, ptdf-flows]
 nos_max:
-  no-ptdf: 20
-  ptdf: 2
+  no-ptdf: 100
+  ptdf: 10
 modes: [p, r, rs15]
 cases: [case118, case300, scigrid, case1354pegase, case1951rte, case2383wp, case2869pegase]
 method: 3
 nhours: 24
-header: case, mode, nhours, no, formulation, method, N, L, Vars, Constrs, NZs, pVars, pConstrs, pNZs, read_time, presol_time, sol_time, solved_with
+header: case,mode,nhours,no,formulation,method,N,L,Vars,Constrs,NZs,pVars,pConstrs,pNZs,read_time,presol_time,sol_time,solved_with

@@ -47,6 +47,11 @@ def run_timing(log_fn, lp_fn, method, network):
         nums['pConstrs'] = int(m.group(1))
         nums['pVars'] = int(m.group(2))
         nums['pNZs'] = int(m.group(3))
+    else:
+        nums['pConstrs'] = np.nan
+        nums['pVars'] = np.nan
+        nums['pNZs'] = np.nan
+
     m = re.search(r"Solved with ([a-z ]+)", logs)
     if m is not None:
         nums['solved_with'] = m.group(1)
@@ -65,4 +70,4 @@ nums = run_timing(snakemake.params.gurobi_log,
 columns = dict(chain(snakemake.wildcards.items(), nums.items()))
 
 with open(snakemake.output[0], 'w') as f:
-    f.write(','.join(str(columns[k]) for k in snakemake.params.header.split(', ')) + "\n")
+    f.write(','.join(str(columns[k]) for k in snakemake.params.header.split(',')) + "\n")
