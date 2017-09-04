@@ -24,7 +24,7 @@ def run_timing(log_fn, lp_fn, method, network):
 
     model.setParam("LogToConsole", 0)
     model.setParam("Method", method)
-    model.setParam("TimeLimit", 2*60*60)  # noqa: E226
+    model.setParam("TimeLimit", 3*60*60)  # noqa: E226
     if method == 3:
         model.setParam("BarHomogeneous", 1)
         model.setParam("Threads", 4)
@@ -70,4 +70,4 @@ nums = run_timing(snakemake.params.gurobi_log,
 columns = dict(chain(snakemake.wildcards.items(), nums.items()))
 
 with open(snakemake.output[0], 'w') as f:
-    f.write(','.join(str(columns[k]) for k in snakemake.params.header.split(',')) + "\n")
+    f.write(','.join(str(columns.get(k)) for k in snakemake.params.header.split(',')) + "\n")

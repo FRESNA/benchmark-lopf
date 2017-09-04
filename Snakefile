@@ -5,10 +5,20 @@ configfile: "config.yaml"
 
 localrules: all, setup_network, combine_timing
 
-NOS = {which: range(config['nos_max'][which]) for which in ['ptdf', 'no-ptdf']}
-
 def mem_requirements(wildcards):
-    factor = 1.5 if hasattr(wildcards, 'method') else 1.
+    if wildcards.type == 'sclopf':
+        return 12000 # 58000 # 3000
+    elif wildcards.type == 'lopf-ne':
+        return 1000
+    elif wildcards.type == 'lopf-ne-year':
+        return 12000
+
+    factor = 1.
+
+    if wildcards.type == 'lopf-ne':
+        factor *= 2
+    if hasattr(wildcards, 'method'):
+        factor *= 1.5
     if wildcards.formulation == 'ptdf':
         factor *= 3
     elif wildcards.formulation == 'ptdf-flows':
@@ -35,7 +45,7 @@ def mem_requirements(wildcards):
 
 rule all:
     input:
-        'timings.csv'
+        expand('timings-{type}.csv', type=config['types'])
 
 rule setup_network:
     output: 'networks/{case}_{mode}_{nhours}_{no}'
@@ -47,38 +57,37 @@ rule setup_network:
 rule write_lp:
     input: 'networks/{case}_{mode}_{nhours}_{no}'
     resources: mem=mem_requirements
-    output: temp('lps/{case}_{mode}_{nhours}_{no}_{formulation}.lp')
+    output: temp('lps/{type}/{case}_{mode}_{nhours}_{no}_{formulation}.lp')
     script: 'scripts/write_lp.py'
 
 rule solve_lp:
     input:
-        'lps/{case}_{mode}_{nhours}_{no}_{formulation}.lp',
+        'lps/{type}/{case}_{mode}_{nhours}_{no}_{formulation}.lp',
         'networks/{case}_{mode}_{nhours}_{no}'
     params:
-        gurobi_log='logs/gurobi/{case}_{mode}_{nhours}_{no}_{formulation}_{method}.log',
+        gurobi_log='logs/gurobi/{type}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}.log',
         header=config['header'],
     threads: 4
     resources: mem=mem_requirements
-    output: 'timings/{case}_{mode}_{nhours}_{no}_{formulation}_{method}'
+    output: 'timings/{type}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}'
     script: 'scripts/solve_lp.py'
 
+def combine_timing_input(wildcards):
+    c = config[wildcards.type]
+    return sum((expand('timings/{type}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}',
+                       type=wildcards.type,
+                       case=c['cases'],
+                       mode=c['modes'],
+                       formulation=c['formulations'][yesnoptdf],
+                       nhours=c['nhours'],
+                       no=range(c['nos_max'][yesnoptdf]),
+                       method=c['method'])
+                for yesnoptdf in ('ptdf', 'no-ptdf')),
+               [])
+
 rule combine_timing:
-    input:
-        expand('timings/{case}_{mode}_{nhours}_{no}_{formulation}_{method}',
-               case=config['cases'],
-               mode=config['modes'],
-               formulation=config['formulations']['no-ptdf'],
-               nhours=config['nhours'],
-               no=NOS['no-ptdf'],
-               method=config['method']),
-        expand('timings/{case}_{mode}_{nhours}_{no}_{formulation}_{method}',
-               case=config['cases'],
-               mode=config['modes'],
-               formulation=config['formulations']['ptdf'],
-               nhours=config['nhours'],
-               no=NOS['ptdf'],
-               method=config['method']),
-    output: 'timings.csv'
+    input: combine_timing_input
+    output: 'timings-{type}.csv'
     params: header=config['header']
     run:
         fd, inputfile = mkstemp(text=True)

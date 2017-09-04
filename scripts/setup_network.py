@@ -65,6 +65,7 @@ def modify_generators(network, nhours=24*2):  # noqa: E226
     network.generators.marginal_cost = (
         ocgt_costs['wbi'] * (1 + 0.1 * np.random.random(len(network.generators)))
     )
+    network.generators.capital_cost = ocgt_costs['wki']
 
 
 def add_storage_unit(network, mode, max_hours=6, p_nom=10):
@@ -75,6 +76,7 @@ def add_storage_unit(network, mode, max_hours=6, p_nom=10):
     storage_df = pd.DataFrame(
         dict(max_hours=max_hours,
              marginal_cost=1e-2 + 2e-3 * (np.random.random(len(p_nom.index)) - 0.5),
+             capital_cost=38e3 + max_hours * 14e3, # Budischak
              p_nom=p_nom,
              p_max_pu=+1, p_min_pu=-1.,
              efficiency_store=0.9,
@@ -106,6 +108,7 @@ def add_renewable_generators(network, mode):
             dict(carrier='windon',
                  p_nom=p_nom,
                  marginal_cost=(1e-2 + 2e-3 * (np.random.random(len(network.buses.index)) - 0.5)),
+                 capital_cost=140e3,
                  bus=network.buses.index),
             index=wind_index),
         "Generator"
@@ -119,9 +122,6 @@ def add_renewable_generators(network, mode):
 
 
 def modify_network_according_to_metadata(network, meta, extend_load=True):
-    if 's' in meta['mode']:
-        add_storage_unit(network, mode=meta['mode'])
-
     if extend_load:
         extend_load_variation(network, nhours=meta['nhours'], mode=meta['mode'])
 
@@ -130,12 +130,13 @@ def modify_network_according_to_metadata(network, meta, extend_load=True):
     if 'r' in meta['mode']:
         add_renewable_generators(network, meta['mode'])
 
+    if 's' in meta['mode']:
+        add_storage_unit(network, mode=meta['mode'])
+
+
 
 def load_network(meta):
-    if meta.get('case', 'scigrid') != 'scigrid':
-        network = load_case(meta['case'], overwrite_zero_s_nom=meta.get('overwrite_zero_s_nom', 1e3))
-        modify_network_according_to_metadata(network, meta, extend_load=True)
-    else:
+    if meta.get('case', 'scigrid') == 'scigrid':
         network = pypsa.Network(csv_folder_name="data/scigrid-with-load-gen-trafos-96")
 
         network.generators.query("(carrier != 'Wind Onshore') and "
@@ -152,6 +153,12 @@ def load_network(meta):
 
         network.set_snapshots(network.snapshots[:meta['nhours']])
         modify_network_according_to_metadata(network, meta, extend_load=False)
+    elif meta['case'] == 'entsoegridkit':
+        network = pypsa.Network(csv_folder_name="data/entsoegridkit-{}".format(meta['mode']))
+        assert meta['nhours'] == len(network.snapshots)
+    else:
+        network = load_case(meta['case'], overwrite_zero_s_nom=meta.get('overwrite_zero_s_nom', 1e3))
+        modify_network_according_to_metadata(network, meta, extend_load=True)
 
     return network
 
