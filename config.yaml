@@ -3,10 +3,10 @@ lopf:
     no-ptdf: [angles, cycles, kirchhoff, angles-flows, cycles-flows]
     ptdf: [ptdf, ptdf-flows]
   nos_max:
-    no-ptdf: 100
-    ptdf: 10
-  modes: [p, r, rs15]
-  cases: [case118, case300, scigrid, case1354pegase, case1951rte, case2383wp, case2869pegase]
+    no-ptdf: 50
+    ptdf: 5
+  modes: [p, r, rs15, lrs15]
+  cases: [case118, case300, scigrid, case1354pegase, case1951rte] #, case2383wp, case2869pegase]
   method: 3
   nhours: 24
 sclopf:
@@ -36,10 +36,10 @@ lopf-ne:
     no-ptdf: [angles, cycles, angles-flows, kirchhoff, cycles-flows]
     ptdf: []
   nos_max:
-    no-ptdf: 100
+    no-ptdf: 50
     ptdf: 0
-  modes: [rs15]
-  cases: [case118, case300, scigrid, case1354pegase, case1951rte, case2383wp, case2869pegase]
+  modes: [rs15, lrs15]
+  cases: [case118, case300, scigrid, case1354pegase, case1951rte] #, case2383wp, case2869pegase]
   method: 3
   nhours: 24
 lopf-ne-year:
@@ -53,5 +53,6 @@ lopf-ne-year:
   cases: entsoegridkit
   method: 3
   nhours: 2920
-types: [sclopf,sclopf-1,lopf-ne]
-header: case,mode,nhours,no,formulation,method,N,L,Vars,Constrs,NZs,pVars,pConstrs,pNZs,read_time,presol_time,sol_time,solved_with
+types: [lopf,lopf-ne]
+solvers: [gurobi, cplex]
+header: case,mode,nhours,no,formulation,method,N,L,Vars,Constrs,NZs,pVars,pConstrs,pNZs,read_time,presol_time,sol_time,solved_with,objective

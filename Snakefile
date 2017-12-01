@@ -5,6 +5,10 @@ configfile: "config.yaml"
 
 localrules: all, setup_network, combine_timing
 
+wildcard_constraints:
+    type="[a-zA-Z0-9]+",
+    solver="[a-zA-Z0-9]+",
+
 def mem_requirements(wildcards):
     if wildcards.type == 'sclopf':
         return 12000 # 58000 # 3000
@@ -45,7 +49,7 @@ def mem_requirements(wildcards):
 
 rule all:
     input:
-        expand('timings-{type}.csv', type=config['types'])
+        expand('timings-{type}-{solver}.csv', type=config['types'], solver=config['solvers'])
 
 rule setup_network:
     output: 'networks/{case}_{mode}_{nhours}_{no}'
@@ -64,18 +68,19 @@ rule solve_lp:
     input:
         'lps/{type}/{case}_{mode}_{nhours}_{no}_{formulation}.lp',
         'networks/{case}_{mode}_{nhours}_{no}'
+    output: 'timings/{type}_{solver}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}'
     params:
-        gurobi_log='logs/gurobi/{type}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}.log',
+        solver_log='logs/{type}_{solver}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}.log',
         header=config['header'],
     threads: 4
     resources: mem=mem_requirements
-    output: 'timings/{type}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}'
     script: 'scripts/solve_lp.py'
 
 def combine_timing_input(wildcards):
     c = config[wildcards.type]
-    return sum((expand('timings/{type}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}',
+    return sum((expand('timings/{type}_{solver}/{case}_{mode}_{nhours}_{no}_{formulation}_{method}',
                        type=wildcards.type,
+                       solver=wildcards.solver,
                        case=c['cases'],
                        mode=c['modes'],
                        formulation=c['formulations'][yesnoptdf],
@@ -87,7 +92,7 @@ def combine_timing_input(wildcards):
 
 rule combine_timing:
     input: combine_timing_input
-    output: 'timings-{type}.csv'
+    output: 'timings-{type}-{solver}.csv'
     params: header=config['header']
     run:
         fd, inputfile = mkstemp(text=True)

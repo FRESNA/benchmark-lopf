@@ -79,10 +79,11 @@ def write_lp_file(network, formulation, fn, type, io_options={}):
     network.model.write(fn, io_options=io_options)
 
 
-network = pypsa.Network(snakemake.input[0])
-network.lines['type'] = np.nan
-network.transformers['type'] = np.nan
+if __name__ == '__main__':
+    network = pypsa.Network(snakemake.input[0])
+    network.lines['type'] = np.nan
+    network.transformers['type'] = np.nan
 
-write_lp_file(network, fn=snakemake.output[0],
-              formulation=snakemake.wildcards.formulation,
-              type=snakemake.wildcards.type)
+    write_lp_file(network, fn=snakemake.output[0],
+                formulation=snakemake.wildcards.formulation,
+                type=snakemake.wildcards.type)

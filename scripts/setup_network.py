@@ -3,6 +3,7 @@
 import os
 import subprocess
 from tempfile import mkstemp
+from vresutils import load as vload
 
 import pandas as pd
 import scipy.io
@@ -50,11 +51,21 @@ def load_case(case, overwrite_zero_s_nom=1e3):
 def extend_load_variation(network, nhours=24*2, scale=0.2, mode=''):  # noqa: E226
     if len(network.snapshots) == 1:
         network.set_snapshots(pd.RangeIndex(nhours))
-        network.loads_t.p_set = pd.DataFrame(
-            network.loads.p_set.values *
-            (1. - abs(np.random.normal(scale=scale, size=(nhours, len(network.loads))))),
-            index=network.snapshots, columns=network.loads.index
-        )
+
+        if 'l' in mode:
+            oload = vload.timeseries_opsd(years="2012").dropna(axis=1).values.reshape((nhours, -1))
+            oload = oload / oload.max(axis=0, keepdims=True)
+
+            network.loads_t.p_set = pd.DataFrame(
+                network.loads.p_set.values * oload[:,:len(network.loads.index)],
+                index=network.snapshots, columns=network.loads.index
+            )
+        else:
+            network.loads_t.p_set = pd.DataFrame(
+                network.loads.p_set.values *
+                (1. - abs(np.random.normal(scale=scale, size=(nhours, len(network.loads))))),
+                index=network.snapshots, columns=network.loads.index
+            )
 
     network.now = network.snapshots[0]
 
