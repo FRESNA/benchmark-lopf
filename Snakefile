@@ -92,7 +92,7 @@ def combine_timing_input(wildcards):
 
 rule combine_timing:
     input: combine_timing_input
-    output: 'timings-{type}-{solver}.csv'
+    output: 'results/timings-{type}-{solver}.csv'
     params: header=config['header']
     run:
         fd, inputfile = mkstemp(text=True)
