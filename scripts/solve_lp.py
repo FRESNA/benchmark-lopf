@@ -117,7 +117,7 @@ def run_timing_cplex(log_fn, lp_fn, method, network):
         nums['pVars'] = np.nan
         nums['pNZs'] = np.nan
 
-    m = re.search("^(\w+) solved model\.", stdout, flags=re.MULTILINE)
+    m = re.search("^[ a-zA-Z]+ solved model\.", stdout, flags=re.MULTILINE)
     if m is not None:
         nums['solved_with'] = m.group(1).lower()
 
