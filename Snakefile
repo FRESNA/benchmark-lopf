@@ -6,7 +6,7 @@ configfile: "config.yaml"
 localrules: all, setup_network, combine_timing
 
 wildcard_constraints:
-    type="[a-zA-Z0-9]+",
+    type="[-a-zA-Z0-9]+",
     solver="[a-zA-Z0-9]+",
 
 def mem_requirements(wildcards):
@@ -49,7 +49,7 @@ def mem_requirements(wildcards):
 
 rule all:
     input:
-        expand('timings-{type}-{solver}.csv', type=config['types'], solver=config['solvers'])
+        expand('results/timings-{type}-{solver}.csv', type=config['types'], solver=config['solvers'])
 
 rule setup_network:
     output: 'networks/{case}_{mode}_{nhours}_{no}'
