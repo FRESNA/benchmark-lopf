@@ -117,15 +117,15 @@ def run_timing_cplex(log_fn, lp_fn, method, network):
         nums['pVars'] = np.nan
         nums['pNZs'] = np.nan
 
-    m = re.search("^[ a-zA-Z]+ solved model\.", stdout, flags=re.MULTILINE)
+    m = re.search(r"^([ a-zA-Z]+) solved model\.", stdout, flags=re.MULTILINE)
     if m is not None:
         nums['solved_with'] = m.group(1).lower()
 
-    m = re.search("^Solution time =\s+([\d\.]+) sec\.", stdout, flags=re.MULTILINE)
+    m = re.search(r"^Solution time =\s+([\d\.]+) sec\.", stdout, flags=re.MULTILINE)
     if m is not None:
         nums['sol_time'] = float(m.group(1))
 
-    m = re.search("Objective =\s+([\d\.e+]+)$", stdout, flags=re.MULTILINE)
+    m = re.search(r"Objective =\s+([\d\.e+]+)$", stdout, flags=re.MULTILINE)
     if m is not None:
         nums['objective'] = float(m.group(1))
     else:
@@ -138,6 +138,8 @@ log_fn = snakemake.params.solver_log
 log_dir = os.path.dirname(log_fn)
 if not os.path.isdir(log_dir):
     os.makedirs(os.path.dirname(log_fn))
+if os.path.exists(log_fn):
+    os.unlink(log_fn)
 
 if snakemake.wildcards.solver == 'gurobi':
     nums = run_timing_gurobi(log_fn,
